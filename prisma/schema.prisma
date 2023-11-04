@@ -1,0 +1,64 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+  previewFeatures = ["fullTextSearch"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id         String   @id @default(cuid())
+  email      String
+  fullname   String
+  password   String
+  access     String   @default("user")
+  status     String   @default("active")
+  created_at DateTime @default(now())
+
+  tokens Token[]
+
+  @@map("users")
+}
+
+model Token {
+  id           String   @id @default(cuid())
+  user_id      String
+  token        String   @unique
+  r_token      String   @unique
+  invoked      Boolean  @default(false)
+  expires_at   DateTime
+  r_expires_at DateTime
+  created_at   DateTime @default(now())
+
+  user User? @relation(fields: [user_id], references: [id])
+
+  @@map("tokens")
+}
+
+model Word {
+  id         String   @id @default(cuid())
+  word       String
+  meaning    String?
+  created_at DateTime @default(now())
+
+  phrases Phrase[]
+
+  @@map("words")
+}
+
+model Phrase {
+  id         String   @id @default(cuid())
+  word_id    String
+  phrase     String
+  meaning    String
+  created_at DateTime @default(now())
+
+  word Word? @relation(fields: [word_id], references: [id])
+
+  @@map("phrases")
+}
