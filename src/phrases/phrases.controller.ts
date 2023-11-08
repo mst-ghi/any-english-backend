@@ -1,5 +1,11 @@
 import { Body, Controller, Param, Query } from '@nestjs/common';
-import { AdminGuard, ApiSignature, BaseResponse } from '@app/toolkit';
+import {
+  AdminGuard,
+  ApiSignature,
+  BaseResponse,
+  GuestGuard,
+  UserId,
+} from '@app/toolkit';
 import { PhrasesService } from './phrases.service';
 import { ApiParam, ApiQuery, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { PhraseResponse, PhrasesResponse } from './phrases.responses';
@@ -27,7 +33,9 @@ export class PhrasesController {
     required: false,
   })
   @ApiResponse({ status: 200, type: PhrasesResponse })
+  @GuestGuard()
   async list(
+    @UserId() userId: string,
     @Query('page') page: string,
     @Query('take') take: string,
     @Query('search') search: string,
@@ -38,10 +46,28 @@ export class PhrasesController {
       take,
       search,
       wordId,
+      userId,
     });
     return {
       phrases: data,
       meta,
+    };
+  }
+
+  @ApiSignature({
+    method: 'GET',
+    path: '/:id',
+    summary: 'word info',
+  })
+  @ApiParam({ name: 'id', description: 'word id' })
+  @ApiResponse({ status: 200, type: PhraseResponse })
+  @GuestGuard()
+  async getOne(
+    @Param('id') wordId: string,
+    @UserId() userId: string,
+  ): Promise<PhraseResponse> {
+    return {
+      phrase: await this.service.getOne(wordId, userId),
     };
   }
 

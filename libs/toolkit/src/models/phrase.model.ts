@@ -16,3 +16,14 @@ export class PhraseModel {
   @ApiProperty()
   created_at?: Date;
 }
+
+export class PhraseShortModel {
+  @ApiProperty()
+  id: string;
+
+  @ApiProperty()
+  phrase: string;
+
+  @ApiProperty()
+  meaning: string | null;
+}

@@ -4,17 +4,17 @@ import { CreatePhraseDto, UpdatePhraseDto } from './phrases.dto';
 
 @Injectable()
 export class PhrasesService extends BaseService {
-  async list({
-    page,
-    take,
-    search,
-    wordId,
-  }: {
-    page?: string;
-    take?: string;
-    search?: string;
-    wordId?: string;
-  } = {}) {
+  async list(
+    args: {
+      page?: string;
+      take?: string;
+      search?: string;
+      wordId?: string;
+      userId?: string;
+    } = {},
+  ) {
+    const { page, take, search, wordId, userId } = args;
+
     const query: any = {
       where: {},
       orderBy: { created_at: 'asc' },
@@ -22,6 +22,14 @@ export class PhrasesService extends BaseService {
 
     if (wordId) {
       query.where['word_id'] = wordId;
+    }
+
+    if (userId) {
+      query['where']['lightners'] = {
+        every: {
+          user_id: userId,
+        },
+      };
     }
 
     if (search) {
@@ -32,6 +40,39 @@ export class PhrasesService extends BaseService {
     }
 
     return this.prisma.paginate('phrase', { page, take }, query);
+  }
+
+  async getOne(phraseId: string, userId?: string) {
+    const where = { id: phraseId };
+
+    if (userId) {
+      where['lightners'] = {
+        every: {
+          user_id: userId,
+        },
+      };
+    }
+
+    const phrase = await this.prisma.phrase.findFirst({
+      where,
+      include: {
+        lightners: {
+          select: {
+            id: true,
+            user_id: true,
+            word_id: true,
+            phrase_id: true,
+            level: true,
+          },
+        },
+      },
+    });
+
+    if (!phrase) {
+      this.notFoundException();
+    }
+
+    return phrase;
   }
 
   async create(dto: CreatePhraseDto) {

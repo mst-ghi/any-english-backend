@@ -4,16 +4,30 @@ import { CreateWordDto, UpdateWordDto } from './words.dto';
 
 @Injectable()
 export class WordsService extends BaseService {
-  async list({
-    page,
-    take,
-    search,
-  }: { page?: string; take?: string; search?: string } = {}) {
+  async list(
+    args: {
+      page?: string;
+      take?: string;
+      search?: string;
+      userId?: string;
+    } = {},
+  ) {
+    const { page, take, search, userId } = args;
+
     const query: any = {
       where: {},
       orderBy: { created_at: 'asc' },
       include: {
         phrases: true,
+        lightners: {
+          select: {
+            id: true,
+            user_id: true,
+            word_id: true,
+            phrase_id: true,
+            level: true,
+          },
+        },
       },
     };
 
@@ -24,13 +38,42 @@ export class WordsService extends BaseService {
       ];
     }
 
+    if (userId) {
+      query['where']['lightners'] = {
+        every: {
+          user_id: userId,
+        },
+      };
+    }
+
     return this.prisma.paginate('word', { page, take }, query);
   }
 
-  async getOne(wordId: string) {
+  async getOne(wordId: string, userId?: string) {
+    const where = { id: wordId };
+
+    if (userId) {
+      where['lightners'] = {
+        every: {
+          user_id: userId,
+        },
+      };
+    }
+
     const word = await this.prisma.word.findFirst({
-      where: { id: wordId },
-      include: { phrases: true },
+      where,
+      include: {
+        phrases: true,
+        lightners: {
+          select: {
+            id: true,
+            user_id: true,
+            word_id: true,
+            phrase_id: true,
+            level: true,
+          },
+        },
+      },
     });
 
     if (!word) {

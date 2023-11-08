@@ -1,6 +1,6 @@
 import { Body, Controller, Param, Query } from '@nestjs/common';
 import { ApiParam, ApiQuery, ApiResponse, ApiTags } from '@nestjs/swagger';
-import { ApiSignature, AdminGuard } from '@app/toolkit';
+import { ApiSignature, AdminGuard, UserId, GuestGuard } from '@app/toolkit';
 import { WordsService } from './words.service';
 import { WordResponse, WordsResponse } from './words.responses';
 import { CreateWordDto, UpdateWordDto } from './words.dto';
@@ -22,12 +22,19 @@ export class WordsController {
     required: false,
   })
   @ApiResponse({ status: 200, type: WordsResponse })
+  @GuestGuard()
   async list(
+    @UserId() userId: string,
     @Query('page') page: string,
     @Query('take') take: string,
     @Query('search') search: string,
   ): Promise<WordsResponse> {
-    const { data, meta } = await this.service.list({ page, take, search });
+    const { data, meta } = await this.service.list({
+      page,
+      take,
+      search,
+      userId,
+    });
     return {
       words: data,
       meta,
@@ -41,9 +48,13 @@ export class WordsController {
   })
   @ApiParam({ name: 'id', description: 'word id' })
   @ApiResponse({ status: 200, type: WordResponse })
-  async getOne(@Param('id') wordId: string): Promise<WordResponse> {
+  @GuestGuard()
+  async getOne(
+    @Param('id') wordId: string,
+    @UserId() userId: string,
+  ): Promise<WordResponse> {
     return {
-      word: await this.service.getOne(wordId),
+      word: await this.service.getOne(wordId, userId),
     };
   }
 

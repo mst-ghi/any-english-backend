@@ -2,7 +2,7 @@
 // learn more about it in the docs: https://pris.ly/d/prisma-schema
 
 generator client {
-  provider = "prisma-client-js"
+  provider        = "prisma-client-js"
   previewFeatures = ["fullTextSearch"]
 }
 
@@ -20,7 +20,8 @@ model User {
   status     String   @default("active")
   created_at DateTime @default(now())
 
-  tokens Token[]
+  tokens    Token[]
+  lightners Lightner[]
 
   @@map("users")
 }
@@ -46,19 +47,37 @@ model Word {
   meaning    String?
   created_at DateTime @default(now())
 
-  phrases Phrase[]
+  phrases   Phrase[]
+  lightners Lightner[]
 
   @@map("words")
 }
 
 model Phrase {
   id         String   @id @default(cuid())
-  word_id    String
+  word_id    String?
   phrase     String
   meaning    String
   created_at DateTime @default(now())
 
-  word Word? @relation(fields: [word_id], references: [id])
+  word      Word?      @relation(fields: [word_id], references: [id])
+  lightners Lightner[]
 
   @@map("phrases")
+}
+
+model Lightner {
+  id         String   @id @default(cuid())
+  user_id    String
+  word_id    String?
+  phrase_id  String?
+  level      Int      @default(4) @db.SmallInt
+  created_at DateTime @default(now())
+
+  user   User    @relation(fields: [user_id], references: [id])
+  word   Word?   @relation(fields: [word_id], references: [id])
+  phrase Phrase? @relation(fields: [phrase_id], references: [id])
+
+  @@unique([user_id, word_id, phrase_id])
+  @@map("lightner")
 }

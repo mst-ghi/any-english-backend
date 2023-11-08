@@ -61,6 +61,45 @@ export class AuthTokenGuard implements CanActivate {
 }
 
 @Injectable()
+export class AuthGuestGuard implements CanActivate {
+  constructor(private readonly jwtService: JwtService) {}
+
+  async canActivate(context: ExecutionContext): Promise<boolean> {
+    const request = context.switchToHttp().getRequest();
+
+    const incomeToken = this.getTokenFromRequest(request);
+
+    if (incomeToken) {
+      const { user, token } =
+        await this.jwtService.fetchUserByToken(incomeToken);
+
+      if (user) {
+        delete user.password;
+        request.user = user;
+        request.userId = user.id;
+        request.token = token;
+      }
+    }
+
+    return true;
+  }
+
+  getTokenFromRequest(request: any) {
+    let token;
+
+    try {
+      token =
+        request.headers['authorization'] || request.headers['Authorization'];
+      token = token.replace('Bearer ', '').replace('bearer ', '');
+    } catch (error) {
+      token = undefined;
+    }
+
+    return token;
+  }
+}
+
+@Injectable()
 export class AdminAccessGuard implements CanActivate {
   constructor(private readonly jwtService: JwtService) {}
 
@@ -77,6 +116,10 @@ export class AdminAccessGuard implements CanActivate {
 
 export function AuthGuard() {
   return applyDecorators(UseGuards(AuthTokenGuard), ApiBearerAuth());
+}
+
+export function GuestGuard() {
+  return applyDecorators(UseGuards(AuthGuestGuard));
 }
 
 export function AdminGuard() {
