@@ -78,6 +78,29 @@ model Lightner {
   word   Word?   @relation(fields: [word_id], references: [id])
   phrase Phrase? @relation(fields: [phrase_id], references: [id])
 
-  @@unique([user_id, word_id, phrase_id])
   @@map("lightner")
+}
+
+model Conversation {
+  id         String   @id @default(cuid())
+  title      String
+  characters String[]
+  created_at DateTime @default(now())
+
+  items ConversationItem[]
+
+  @@map("conversations")
+}
+
+model ConversationItem {
+  id              String   @id @default(cuid())
+  conversation_id String
+  character       String
+  phrase          String
+  meaning         String
+  created_at      DateTime @default(now())
+
+  conversation Conversation @relation(fields: [conversation_id], references: [id])
+
+  @@map("conversation_items")
 }

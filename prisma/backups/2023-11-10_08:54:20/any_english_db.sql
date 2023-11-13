@@ -39,6 +39,36 @@ CREATE TABLE public._prisma_migrations (
 ALTER TABLE public._prisma_migrations OWNER TO postgres;
 
 --
+-- Name: conversation_items; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.conversation_items (
+    id text NOT NULL,
+    conversation_id text NOT NULL,
+    "character" text NOT NULL,
+    phrase text NOT NULL,
+    meaning text NOT NULL,
+    created_at timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+
+ALTER TABLE public.conversation_items OWNER TO postgres;
+
+--
+-- Name: conversations; Type: TABLE; Schema: public; Owner: postgres
+--
+
+CREATE TABLE public.conversations (
+    id text NOT NULL,
+    title text NOT NULL,
+    characters text[],
+    created_at timestamp(3) without time zone DEFAULT CURRENT_TIMESTAMP NOT NULL
+);
+
+
+ALTER TABLE public.conversations OWNER TO postgres;
+
+--
 -- Name: lightner; Type: TABLE; Schema: public; Owner: postgres
 --
 
@@ -123,9 +153,23 @@ ALTER TABLE public.words OWNER TO postgres;
 --
 
 COPY public._prisma_migrations (id, checksum, finished_at, migration_name, logs, rolled_back_at, started_at, applied_steps_count) FROM stdin;
-4203d46f-2b69-40f3-afe3-35a3fe54e9b2	aae503d92123334382c1964b72cba7baeaded7edd9a45b8f5efe8c96b074a4fe	2023-10-26 08:34:12.711985+03:30	20231026050412_init	\N	\N	2023-10-26 08:34:12.657712+03:30	1
-f5fa9145-4df5-4032-8266-0ef0ca06abd8	64c99fb20931dbed6b6326037cf597e12fb4d7173a1e95bf99eab4111c7f6a1b	2023-11-05 10:01:17.9434+03:30	20231105063117_init	\N	\N	2023-11-05 10:01:17.915877+03:30	1
-1f63eb57-3632-4ab5-b0f3-ed8b05a7ebc5	9649710d968301dd8434c3eb63af6da3bc219d4537276635c88b86f64f21ced6	2023-11-05 10:28:51.792374+03:30	20231105065851_init	\N	\N	2023-11-05 10:28:51.778858+03:30	1
+d607c5b9-b719-4500-b719-0c60c358048d	671b31f83f3e767e073a861f024fcdb76ac7cdcab3f356bcf46fe450d9afd705	2023-11-10 08:49:16.019756+03:30	20231110051915_init	\N	\N	2023-11-10 08:49:15.932206+03:30	1
+\.
+
+
+--
+-- Data for Name: conversation_items; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.conversation_items (id, conversation_id, "character", phrase, meaning, created_at) FROM stdin;
+\.
+
+
+--
+-- Data for Name: conversations; Type: TABLE DATA; Schema: public; Owner: postgres
+--
+
+COPY public.conversations (id, title, characters, created_at) FROM stdin;
 \.
 
 
@@ -134,16 +178,6 @@ f5fa9145-4df5-4032-8266-0ef0ca06abd8	64c99fb20931dbed6b6326037cf597e12fb4d7173a1
 --
 
 COPY public.lightner (id, user_id, word_id, phrase_id, level, created_at) FROM stdin;
-clony0gbo0005lyq1in34cmct	clo6q6r0r0000lyedmjryjryy	\N	clo6rjufh0004lyi63njf6j4h	4	2023-11-07 06:21:12.229
-clony0gx80007lyq1a1uh8hf1	clo6q6r0r0000lyedmjryjryy	\N	clo6rkydx0007lyi641maow9v	4	2023-11-07 06:21:13.005
-clony0hfs0009lyq11otnz8uk	clo6q6r0r0000lyedmjryjryy	\N	cloa4ynk50004ly2sas4it954	4	2023-11-07 06:21:13.673
-clonvuad0000jlypuit8pqjb0	clo6q6r0r0000lyedmjryjryy	cloa5mklj000mly2svd8bg2qi	\N	4	2023-11-07 05:20:25.333
-clonvuayc000llypuv39gms23	clo6q6r0r0000lyedmjryjryy	cloa55tkd000hly2sr3sy5jt1	\N	4	2023-11-07 05:20:26.1
-clonvubtv000nlypuv1x5x8lj	clo6q6r0r0000lyedmjryjryy	cloa5464z000cly2sjkendp78	\N	4	2023-11-07 05:20:27.235
-clonvuc9r000plypuiw73ohbt	clo6q6r0r0000lyedmjryjryy	cloa4zjko0007ly2sqfgmdfv7	\N	4	2023-11-07 05:20:27.807
-clonvud67000rlypuk8pmzz76	clo6q6r0r0000lyedmjryjryy	cloa4y0sl0002ly2s5sng56qa	\N	4	2023-11-07 05:20:28.975
-clonvudm2000tlypuwmk5ssv9	clo6q6r0r0000lyedmjryjryy	clo6rkghh0005lyi6u8thll6d	\N	4	2023-11-07 05:20:29.547
-clonvudzz000vlypuumor04in	clo6q6r0r0000lyedmjryjryy	clo6rjb220002lyi6gan1si63	\N	4	2023-11-07 05:20:30.048
 \.
 
 
@@ -919,6 +953,86 @@ clomzflo50057lyxsfb6r37er	clomzfblb0055lyxs7xxgvpyr	I don't care	من اهمیت
 clomzfwp10059lyxs2h3w3xa5	clomzfblb0055lyxs7xxgvpyr	nobody cares about your problems	هیچکس به مشکلات تو اهمیت نمی‌دهد	2023-11-06 14:13:26.726
 clomzi07s005clyxssas988cl	clomzgnuv005alyxs1j1iv595	perhaps you can help me	احتمالاً شما بتوانید مرا کمک کنید	2023-11-06 14:15:04.6
 clomzicgz005elyxszeu78xcq	clomzgnuv005alyxs1j1iv595	perhaps you misunderstood	احتمالاً شما اشتباه متوجه شدید	2023-11-06 14:15:20.484
+clopewwft0002lygyoo74gki9	clopewegi0000lygy33e7czig	pardon me I'm late again	مرا عفو کنید من دوباره دیر کردم	2023-11-08 07:02:06.137
+clopexcvz0004lygyay9pe38n	clopewegi0000lygy33e7czig	it was late summer when it happened	اواخر تابستان بود وقتی که آن اتفاق افتاد	2023-11-08 07:02:27.456
+clopexzu20007lygy1vjqwhv6	clopexmnc0005lygyk4fk6w9i	study hard that is my motto	سخت مطالعه کن این شعار من است	2023-11-08 07:02:57.194
+clopeyv340009lygyegy91zby	clopexmnc0005lygyk4fk6w9i	this is a hard question to answer	این سال سختی برای جواب دادن است	2023-11-08 07:03:37.697
+clopf0p4x000clygyy2a0cvu9	clopezgdl000alygyu806ntti	the field was planted with citrus trees	زمین با درختان مرکبات کاشته شده بود	2023-11-08 07:05:03.297
+clopf1kpw000elygypmwff5wi	clopezgdl000alygyu806ntti	are you still in the same field?	آیا شما هنوز در همان رشته هستید	2023-11-08 07:05:44.228
+clopf2jfw000hlygynig6xyvb	clopf1xtx000flygyh9wbhnjg	do you need anything else?	آیا چیز دیگری احتیاج دارید	2023-11-08 07:06:29.229
+clopf2zie000jlygytbcgbmud	clopf1xtx000flygyh9wbhnjg	what else can we do?	ما چه کار دیگری می‌توانیم انجام دهیم	2023-11-08 07:06:50.055
+clopf3rvl000mlygylsusyjkj	clopf3go3000klygykuyxde9c	don't worry it will soon pass	نگران نباش به زودی خواهد گذشت	2023-11-08 07:07:26.817
+clopf42yi000olygyirg5ufil	clopf3go3000klygykuyxde9c	they don't let anyone pass	آنها اجازه نمی‌دهند که کسی عبور کند	2023-11-08 07:07:41.178
+clopf5zqq000rlygybj1h91wf	clopf56zw000plygyp10hhxpb	of the two suggestions I prefer the former	از آن دو پیشنهاد من قبلی را ترجیح می‌دهم	2023-11-08 07:09:10.322
+clopf6czr000tlygynv6xqof4	clopf56zw000plygyp10hhxpb	Peter is Emma's former husband	پیتر شوهر سابق اما است	2023-11-08 07:09:27.495
+clopf7aki000wlygyzyzune7l	clopf6rxg000ulygyrlarpial	don't sell them now wait some days	الان آنها را نفروش چند روزی صبر کن	2023-11-08 07:10:11.011
+clopf7pr1000ylygy1jrato9f	clopf6rxg000ulygyrlarpial	do you want to sell your furniture?	آیا می‌خواهی لوازم خانگیت را بفروشیم	2023-11-08 07:10:30.685
+clopf8hko0011lygy0pnrlt27	clopf84g6000zlygyf0jpcwfy	what was your major?	رشته شما چه بود	2023-11-08 07:11:06.744
+clopf9udg0013lygyv2yhyejg	clopf84g6000zlygyf0jpcwfy	sugar is a major cause of tooth decay	شکر دلیل اصلی برای پوسیدگی دندان است	2023-11-08 07:12:09.988
+clopfaof30016lygyth762vj4	clopfa3h70014lygy0avstu38	come and see us sometimes	گاهی بیا و ما را ببین	2023-11-08 07:12:48.927
+clopfb8yz0018lygy50b6vt1d	clopfa3h70014lygy0avstu38	sometimes it's best not to say anything	گاهی بهترین کار هیچ چیز نگفتن است	2023-11-08 07:13:15.563
+clopfc0f6001blygyj21nifvr	clopfbnhb0019lygy7u9sfr0d	we require your advice on help	ما به توصیه و کمک شما نیاز داریم	2023-11-08 07:13:51.138
+clopfcj5w001dlygyrjx0qopt	clopfbnhb0019lygy7u9sfr0d	this game requires total concentration	این بازی به تمرکز کامل احتیاج دارد	2023-11-08 07:14:15.428
+clopfdtqx001glygye43jkegn	clopfdix5001elygygxo9p6sl	come along with us	همراه ما بیایید	2023-11-08 07:15:15.802
+clopfe6my001ilygywomvj11o	clopfdix5001elygygxo9p6sl	we just met along the way	ما به تازگی در طول مسیر همدیگر را دیدیم	2023-11-08 07:15:32.507
+clopfffhh001llygy8nqag98p	clopfef25001jlygyjbgusd12	that land will be used Urban Development	آن زمین برای توسعه شهری استفاده خواهد شد	2023-11-08 07:16:30.629
+clopffy94001nlygybwd1z5eh	clopfef25001jlygyjbgusd12	Mr Jackson is in charge of product development	آقای جکسون مسئول توسعه محصول است	2023-11-08 07:16:54.953
+clopfhkdl001qlygypmg7b5ox	clopfh33t001olygy14376h08	they themselves decide to do so	آنها خودشان تصمیم گرفتند آن چنین کنند	2023-11-08 07:18:10.281
+clopfj7p2001slygy6avpxfpg	clopfh33t001olygy14376h08	the girls made themselves sandwich for lunch	برای ناهار دختران برای خودشان ساندویچ درست کردند	2023-11-08 07:19:27.159
+clopfkvgg001vlygygx7uuidx	clopfkj7n001tlygyle8x656k	can I see the report?	آیا می‌توانم گزارش را ببینم	2023-11-08 07:20:44.608
+clopfliwm001xlygyp2n4eqat	clopfkj7n001tlygyle8x656k	we called the police to report the accident	ما به پلیس زنگ زدیم تا تصادف را گزارش کنیم	2023-11-08 07:21:14.998
+clopfmraj0020lygyb8yjajp4	clopfm0cc001ylygykg137rjd	you need to accept your role in life	شما باید وظیفه خودتان را در زندگی بپذیرید	2023-11-08 07:22:12.523
+clopfnc5b0022lygybpw9ypuy	clopfm0cc001ylygykg137rjd	schools play an important role in society	مدارس نقش مهمی در جامعه ایفا می‌کنند	2023-11-08 07:22:39.552
+clopfo27p0025lygyie8epsno	clopfnljv0023lygyd84i3oyi	this city is better than I expected	این شهر از آنچه انتظار داشتم بهتر است	2023-11-08 07:23:13.333
+clopfod0g0027lygyvmmcuijt	clopfnljv0023lygyd84i3oyi	I hope you get better soon	امیدوارم زودتر خوب شوید	2023-11-08 07:23:27.328
+clopfpw6w002alygyjs6cxp7c	clopfon5z0028lygyxa0oammd	Jack gave up the plan for economic reasons	جک به دلایل اقتصادی از برنامه سر باز زد	2023-11-08 07:24:38.84
+clopfqm3n002clygyjsyb5c9d	clopfon5z0028lygyxa0oammd	all of us know that we are in an economic crisis	همه ما می‌دانیم که در یک بحران اقتصادی هستیم	2023-11-08 07:25:12.419
+clopfrg9s002flygy4zoz0znn	clopfqzr9002dlygy9vjkckpa	success depends mostly on effort	موفقیت بیشتر به تلاش بستگی دارد	2023-11-08 07:25:51.521
+clopfsx74002hlygy6vt6lw6m	clopfqzr9002dlygy9vjkckpa	all their effort ended in failure	همه تلاش‌های آنها منجر به شکست شد	2023-11-08 07:27:00.112
+clopftn6e002klygytzs3t7sk	clopft5um002ilygy47dfx6xz	we decided to stay here for two extra days	ما تصمیم گرفتیم برای دو روز اضافی اینجا بمانیم	2023-11-08 07:27:33.782
+clopfu4ez002mlygyixwm3umi	clopft5um002ilygy47dfx6xz	in the end we decided to go to the beach	در آخر ما تصمیم گرفتیم به ساحل برویم	2023-11-08 07:27:56.124
+clopfvgb9002plygy8qu9fkkv	clopfuvnq002nlygy7npv08p1	how do you rate him as a football player?	چطور او را به عنوان یک بازیکن فوتبال ارزیابی می‌کنید	2023-11-08 07:28:58.198
+clopfwl8k002rlygy7idvrfbn	clopfuvnq002nlygy7npv08p1	we agreed a rate with the painter	ما یک نرخ را با نقاش موافقت کردیم	2023-11-08 07:29:51.236
+clopfx99z002ulygy2cpe607o	clopfwz4h002slygylylf1yww	we should be strong in this life	ما باید در این زندگی قوی باشیم	2023-11-08 07:30:22.391
+clopfz1cs002wlygy5b3hq0ug	clopfwz4h002slygylylf1yww	two thirds of voters see Mori as a strong leader	دو سوم از رای دهندگان موری را به عنوان رهبر قوی می‌بینند	2023-11-08 07:31:45.436
+clopfzreq002zlygy8vm3b0yu	clopfzggs002xlygybqhvl7tm	Anything is Possible	هر چیزی ممکن است	2023-11-08 07:32:19.202
+clopg0bf10031lygyjcpuur8i	clopfzggs002xlygybqhvl7tm	is it possible to buy tickets in advance?	آیا ممکن است که بلیطها را زودتر بخریم	2023-11-08 07:32:45.133
+clopg1ak50034lygy49zefd83	clopg0tc00032lygyrneyl3wm	I will always love you with all my heart	من همیشه با تمام قلب عاشق تو خواهم بود	2023-11-08 07:33:30.677
+clopg1re90036lygyuw6w0v8i	clopg0tc00032lygyrneyl3wm	you have a good heart	شما قلب مهربانی دارید	2023-11-08 07:33:52.498
+clopg31jq0039lygyutxjo9ti	clopg22nm0037lygy4r7rm74c	drugs can ruin your life	مواد مخدر می‌توان از زندگیت را ویران کند	2023-11-08 07:34:52.31
+clopg3sq1003blygylicgnqxk	clopg22nm0037lygy4r7rm74c	Bob takes several drugs for his condition	باب به خاطر شرایطش چندین دارو مصرف می‌کند	2023-11-08 07:35:27.53
+clopg4g71003elygy6c8u2owf	clopg41uc003clygy4tklgcqx	every country has its own political leader	هر کشوری رهبر سیاسی خودش را دارد	2023-11-08 07:35:57.949
+clopg52le003glygybudcr6s4	clopg41uc003clygy4tklgcqx	Microsoft is world leader in software design	شرکت مایکروسافت یک رهبر جهانی در طراحی نرم‌افزار است	2023-11-08 07:36:26.978
+clopg5xs7003jlygy4yqg7zbv	clopg5dhc003hlygyneccf2oi	you can see the sunlight from here	تو میتوانی نور خورشید را اینجا ببینی	2023-11-08 07:37:07.399
+clopg6n5z003llygyl5npuhpe	clopg5dhc003hlygyneccf2oi	take this back it's quiet light	این کیف را بردار نسبتا سبک است	2023-11-08 07:37:40.296
+clopg7cn2003olygymau7vppv	clopg71dx003mlygy7irwm740	lower your voice please	لطفاً صدایتان را پایین بیاورید	2023-11-08 07:38:13.311
+clopg7o96003qlygye4o5xrob	clopg71dx003mlygy7irwm740	you are hearing my voice from Canada	شما صدای مرا از کانادا می‌شنوید	2023-11-08 07:38:28.362
+clopg8cs5003tlygy08g6eas3	clopg82zb003rlygy8n5gex8s	how is your wife?	همسرت چطور است	2023-11-08 07:39:00.15
+clopg8tow003vlygy71g83b1w	clopg82zb003rlygy8n5gex8s	quiet please my wife is calling	ساکت باشه لطفاً همسر من دارد زنگ می‌زند	2023-11-08 07:39:22.065
+clopgaakb003ylygy0eucoorf	clopg9blj003wlygyzh3aej2e	there is still a whole month till my birthday	هنوز یک ماه کامل تا تولد من وجود دارد	2023-11-08 07:40:30.588
+clopgalan0040lygyllthd5wt	clopg9blj003wlygyzh3aej2e	my love you are my whole life	عشق من تو تمام زندگی من هستی	2023-11-08 07:40:44.496
+clopgb1oa0043lygyc3uugpkw	clopgas650041lygytzvsuop2	I think you should call the police	من فکر می‌کنم شما باید به پلیس زنگ بزنید	2023-11-08 07:41:05.723
+clopgbij40045lygy1eaqcpe0	clopgas650041lygytzvsuop2	the police found Bob's Bicycle	پلیس دوچرخه باب را پیدا کرد	2023-11-08 07:41:27.568
+clopgcivk0048lygypnyw832a	clopgbwkw0046lygyt306xppe	keep this word in your mind	این حرف را در ذهنت داشته باش	2023-11-08 07:42:14.672
+clopgcrb8004alygy3iqffesg	clopgbwkw0046lygyt306xppe	mind your steps	مراقب قدمهایت باش	2023-11-08 07:42:25.604
+clopgdnff004dlygyxkmpa266	clopgd0x5004blygyyp0v3pzq	they finally escaped from the war	آنها در نهایت از جنگ فرار کردند	2023-11-08 07:43:07.227
+clopge9yn004flygynn1tne3m	clopgd0x5004blygyyp0v3pzq	the school is finally over	مدرسه در نهایت تمام شد	2023-11-08 07:43:36.431
+clopgf60h004ilygyfsyfpk6i	clopgesb5004glygyowo0s5fm	don't make me pull the trigger	مجبورم نکن ماشه رو بکشم	2023-11-08 07:44:17.97
+clopgfpl7004klygyokeh0mvp	clopgesb5004glygyowo0s5fm	would you please pull the Rope?	آیا ممکن است طناب را بکشی	2023-11-08 07:44:43.339
+clopgglx8004nlygyov8knrtu	clopgg58r004llygyknwmi1id	we are waiting for you, you must return	ما منتظر تو هستیم تو باید برگردی	2023-11-08 07:45:25.244
+clopggv2e004plygy84g2tt4y	clopgg58r004llygyknwmi1id	I have just returned	من به تازگی برگشتم	2023-11-08 07:45:37.094
+clopgheyd004slygy4jk99u6o	clopgh5xv004qlygy4z9i83ld	are you free tonight?	آیا تو امشب آزاد هستی	2023-11-08 07:46:02.87
+clopghp3x004ulygy54n1vvsj	clopgh5xv004qlygy4z9i83ld	help yourself it's free	به خودت کمک کن این رایگان است	2023-11-08 07:46:16.029
+clopgi96b004xlygyf05lw0go	clopghwov004vlygy7njg7xdo	there is a military base near here	یک پایگاه نظامی نزدیک اینجا وجود دارد	2023-11-08 07:46:42.036
+clopgiouf004zlygy53qu7pjc	clopghwov004vlygy7njg7xdo	that site is used for military purposes	آن مکان برای اهداف نظامی استفاده می‌شود	2023-11-08 07:47:02.343
+clopgj75d0052lygy3y77vqfj	clopgixc00050lygyarznihm8	what is the price?	قیمت چند است	2023-11-08 07:47:26.066
+clopgjgoo0054lygygrgqs42h	clopgixc00050lygyarznihm8	did you ask the price?	آیا قیمت را پرسیدی	2023-11-08 07:47:38.425
+clopgk1qn0057lygyscwpr9cp	clopgjmre0055lygyn4eq8fg0	think more talk less	بیشتر فکر کن کمتر حرف بزن	2023-11-08 07:48:05.711
+clopgkfey0059lygyiioqvjqm	clopgjmre0055lygyn4eq8fg0	we earned less money last month	ما ماه گذشته پول کمتری به دست آوردیم	2023-11-08 07:48:23.435
+clopgln9w005clygy7od22pgx	clopgky1q005alygy5vxldeqv	according to our records you owe us $200	با توجه به اسناد ما شما به ما ۲۰۰ دلار بدهکارید	2023-11-08 07:49:20.276
+clopgm611005elygyfo5sqbt4	clopgky1q005alygy5vxldeqv	Bob always did everything according to the rules	باب همیشه هر کار را طبق قوانین انجام داد	2023-11-08 07:49:44.581
+clopgmrc2005hlygy1z8jta4s	clopgmdd9005flygyk5tgzz4p	it was my decision to leave home	آن تصمیم من بود که خانه را ترک کنم	2023-11-08 07:50:12.194
+clopgn205005jlygyopaems5z	clopgmdd9005flygyk5tgzz4p	make a decision till tomorrow	تا فردا تصمیمی بگیر	2023-11-08 07:50:26.021
 \.
 
 
@@ -927,15 +1041,6 @@ clomzicgz005elyxszeu78xcq	clomzgnuv005alyxs1j1iv595	perhaps you misunderstood	ا
 --
 
 COPY public.tokens (id, user_id, token, r_token, invoked, expires_at, r_expires_at, created_at) FROM stdin;
-clo6riths0001lyi6mq3alp9s	clo6q6r0r0000lyedmjryjryy	BqiEJ6Jtj9/+tzljysGvQ0pIMqNJhNQdGXy6ddi55lg=	gxAEtWZ03KONxXtJhqpdgNAg7FaT1wtDM5i6eLleK0I=	f	2023-10-31 05:47:26.798	2023-11-19 05:47:26.799	2023-10-26 05:47:26.8
-cloa4t78t0001ly2sqdqferu9	clo6q6r0r0000lyedmjryjryy	5pGto4GLB8bR+6Yjk6ePr9VrCfPkHGFgXcvkAY9FbGU=	uxdstV02nzpfJpAAmnPzRKOeIf458tVe6LQTjEICtsA=	f	2023-11-02 14:22:44.716	2023-11-21 14:22:44.716	2023-10-28 14:22:44.717
-clodtfr8c0001lyfil7mi1a5e	clo6q6r0r0000lyedmjryjryy	ICqpTeL9g+Hgm2E2UlIrXTLzIFxRGHXrVYzhLFS22Oo=	1mnM8yOtupMC5fwyMNJN4JL3DzLCDq7agS8urO0ggt0=	f	2023-11-05 04:15:26.363	2023-11-24 04:15:26.364	2023-10-31 04:15:26.365
-clodtg4sr0003lyfi50srcoag	clo6q6r0r0000lyedmjryjryy	EJDhNrdKkQv+eXq00AM6eNcoyY02uldfQL5LgAz0s6c=	LwM9ZSNYUWms2tpfN7q668U6cOdhCFnpvtGdf+XDpoo=	f	2023-11-05 04:15:43.947	2023-11-24 04:15:43.947	2023-10-31 04:15:43.948
-clodu0bsb0012lyfimra86aub	clo6q6r0r0000lyedmjryjryy	+/3AWPTFYwNK+5FkDhBfVzDvUZGvEiKhAKNXM4IcEbQ=	i6f2LhIviatewmlJDHlxt5co8FUX/vKSifsKwm/5qmQ=	f	2023-11-05 04:31:26.123	2023-11-24 04:31:26.123	2023-10-31 04:31:26.124
-clofg63ny004hly7zqq998hgv	clo6q6r0r0000lyedmjryjryy	0adKCV76MES0vNIEvGyBIPYO3Pi3xmRNwx8qGmwgXTk=	10Iwzf715RBkOy8qCP+gfhwHsa4+B09+muW7RORYZjM=	f	2023-11-06 07:39:33.261	2023-11-25 07:39:33.261	2023-11-01 07:39:33.262
-clofso4dv004nly7zbgz4hief	clo6q6r0r0000lyedmjryjryy	Bo5smriOlaYx+qNZOWJE6aLqWc92diqDCecCtSeV/6s=	6LN1TSap3eh4gaww1b2SIpOZhP4hcQbnH43uejjsACw=	f	2023-11-06 13:29:29.395	2023-11-25 13:29:29.395	2023-11-01 13:29:29.396
-clol6pkwx0002lyiug2drxli5	clol6pkwi0000lyiul5fm7xg9	umGrIsQZSm1R29Nlb5s4moiVsvYsPMlM+m1XelvWw4o=	DYofIQl0kDWZ8wk0+Ng3jViuI8OuYKseYxAeJXehRN0=	f	2023-11-10 08:01:22.976	2023-11-29 08:01:22.976	2023-11-05 08:01:22.977
-clol6r3bj0006lyiuffvmkhd3	clo6q6r0r0000lyedmjryjryy	AQeihnYoL8NE/r8Rm9F3NUDpOYIAp21fsJP4pXtWRo4=	m6m8MaKeh/c4Gg1Sa5Sk6L17SJo0tDD8H/s3VCfkDsE=	f	2023-11-10 08:02:33.486	2023-11-29 08:02:33.486	2023-11-05 08:02:33.487
 \.
 
 
@@ -945,7 +1050,6 @@ clol6r3bj0006lyiuffvmkhd3	clo6q6r0r0000lyedmjryjryy	AQeihnYoL8NE/r8Rm9F3NUDpOYIA
 
 COPY public.users (id, email, fullname, password, access, status, created_at) FROM stdin;
 clo6q6r0r0000lyedmjryjryy	mostafagholamidev@gmail.com	Mostafa Gholami	c557dbe7da3b811bdfe942ef65a4878f76d46eb980e6218e10f4166ccd2a082a	admin	active	2023-10-26 05:10:04.107
-clol6pkwi0000lyiul5fm7xg9	mostafa@gmail.com	Mostafa New	c557dbe7da3b811bdfe942ef65a4878f76d46eb980e6218e10f4166ccd2a082a	user	active	2023-11-05 08:01:22.962
 \.
 
 
@@ -1338,6 +1442,46 @@ clomzcike004vlyxsa1oxh80g	control	کنترل / کنترل کردن	2023-11-06 14
 clomzduni0050lyxsedshke0o	raise	بالا بردن / ترفیع	2023-11-06 14:11:50.766
 clomzfblb0055lyxs7xxgvpyr	care	مراقبت کردن / اهمیت دادن	2023-11-06 14:12:59.375
 clomzgnuv005alyxs1j1iv595	perhaps	شاید / احتمالاً	2023-11-06 14:14:01.928
+clopewegi0000lygy33e7czig	late	دیر / دیر کردن / اواخر	2023-11-08 07:01:42.835
+clopexmnc0005lygyk4fk6w9i	hard	سخت / سفت	2023-11-08 07:02:40.104
+clopezgdl000alygyu806ntti	field	رشته / زمینه / زمین / عرصه	2023-11-08 07:04:05.289
+clopf1xtx000flygyh9wbhnjg	else	دیگر / دیگری / غیر	2023-11-08 07:06:01.222
+clopf3go3000klygykuyxde9c	pass	عبور کردن / پاس کردن	2023-11-08 07:07:12.291
+clopf56zw000plygyp10hhxpb	former	سابق / قبلی	2023-11-08 07:08:33.068
+clopf6rxg000ulygyrlarpial	sell	فروختن	2023-11-08 07:09:46.852
+clopf84g6000zlygyf0jpcwfy	major	عمده / اصلی / رشته اصلی	2023-11-08 07:10:49.734
+clopfa3h70014lygy0avstu38	sometimes	گاهی	2023-11-08 07:12:21.788
+clopfbnhb0019lygy7u9sfr0d	require	نیاز داشتن / احتیاج داشتن	2023-11-08 07:13:34.368
+clopfdix5001elygygxo9p6sl	along	همراه / در طول	2023-11-08 07:15:01.769
+clopfef25001jlygyjbgusd12	development	توسعه	2023-11-08 07:15:43.421
+clopfh33t001olygy14376h08	themselves	خودشان / از خودشان	2023-11-08 07:17:47.898
+clopfkj7n001tlygyle8x656k	report	گزارش / گزارش دادن	2023-11-08 07:20:28.739
+clopfm0cc001ylygykg137rjd	role	نقش / وظیفه	2023-11-08 07:21:37.596
+clopfnljv0023lygyd84i3oyi	better	بهتر	2023-11-08 07:22:51.74
+clopfon5z0028lygyxa0oammd	economic	اقتصادی	2023-11-08 07:23:40.488
+clopfqzr9002dlygy9vjkckpa	effort	تلاش / کوشش	2023-11-08 07:25:30.118
+clopft5um002ilygy47dfx6xz	decide	تصمیم گرفتن	2023-11-08 07:27:11.327
+clopfuvnq002nlygy7npv08p1	rate	نرخ / میزان / ارزیابی کردن	2023-11-08 07:28:31.431
+clopfwz4h002slygylylf1yww	strong	قوی	2023-11-08 07:30:09.234
+clopfzggs002xlygybqhvl7tm	possible	ممکن	2023-11-08 07:32:05.02
+clopg0tc00032lygyrneyl3wm	heart	قلب	2023-11-08 07:33:08.352
+clopg22nm0037lygy4r7rm74c	drug	دارو / مواد مخدر	2023-11-08 07:34:07.091
+clopg41uc003clygy4tklgcqx	leader	رهبر	2023-11-08 07:35:39.348
+clopg5dhc003hlygyneccf2oi	light	نور / سبک	2023-11-08 07:36:41.089
+clopg71dx003mlygy7irwm740	voice	صوت / صدا	2023-11-08 07:37:58.726
+clopg82zb003rlygy8n5gex8s	wife	زن / همسر خانم	2023-11-08 07:38:47.447
+clopg9blj003wlygyzh3aej2e	whole	تمام / کل / کامل	2023-11-08 07:39:45.272
+clopgas650041lygytzvsuop2	police	پلیس	2023-11-08 07:40:53.406
+clopgbwkw0046lygyt306xppe	mind	ذهن / مراقب بودن	2023-11-08 07:41:45.777
+clopgd0x5004blygyyp0v3pzq	finally	سرانجام / در نهایت	2023-11-08 07:42:38.057
+clopgesb5004glygyowo0s5fm	pull	کشیدن	2023-11-08 07:44:00.209
+clopgg58r004llygyknwmi1id	return	برگشتن / بازگشت	2023-11-08 07:45:03.628
+clopgh5xv004qlygy4z9i83ld	free	رایگان / آزاد	2023-11-08 07:45:51.188
+clopghwov004vlygy7njg7xdo	military	نظامی	2023-11-08 07:46:25.855
+clopgixc00050lygyarznihm8	price	قیمت	2023-11-08 07:47:13.344
+clopgjmre0055lygyn4eq8fg0	less	کمتر	2023-11-08 07:47:46.299
+clopgky1q005alygy5vxldeqv	according to	مطابق با / با توجه به	2023-11-08 07:48:47.583
+clopgmdd9005flygyk5tgzz4p	decision	تصمیم	2023-11-08 07:49:54.093
 \.
 
 
@@ -1347,6 +1491,22 @@ clomzgnuv005alyxs1j1iv595	perhaps	شاید / احتمالاً	2023-11-06 14:14:0
 
 ALTER TABLE ONLY public._prisma_migrations
     ADD CONSTRAINT _prisma_migrations_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: conversation_items conversation_items_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.conversation_items
+    ADD CONSTRAINT conversation_items_pkey PRIMARY KEY (id);
+
+
+--
+-- Name: conversations conversations_pkey; Type: CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.conversations
+    ADD CONSTRAINT conversations_pkey PRIMARY KEY (id);
 
 
 --
@@ -1390,13 +1550,6 @@ ALTER TABLE ONLY public.words
 
 
 --
--- Name: lightner_user_id_word_id_phrase_id_key; Type: INDEX; Schema: public; Owner: postgres
---
-
-CREATE UNIQUE INDEX lightner_user_id_word_id_phrase_id_key ON public.lightner USING btree (user_id, word_id, phrase_id);
-
-
---
 -- Name: tokens_r_token_key; Type: INDEX; Schema: public; Owner: postgres
 --
 
@@ -1408,6 +1561,14 @@ CREATE UNIQUE INDEX tokens_r_token_key ON public.tokens USING btree (r_token);
 --
 
 CREATE UNIQUE INDEX tokens_token_key ON public.tokens USING btree (token);
+
+
+--
+-- Name: conversation_items conversation_items_conversation_id_fkey; Type: FK CONSTRAINT; Schema: public; Owner: postgres
+--
+
+ALTER TABLE ONLY public.conversation_items
+    ADD CONSTRAINT conversation_items_conversation_id_fkey FOREIGN KEY (conversation_id) REFERENCES public.conversations(id) ON UPDATE CASCADE ON DELETE RESTRICT;
 
 
 --

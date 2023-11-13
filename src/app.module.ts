@@ -17,6 +17,7 @@ import { WordsModule } from './words/words.module';
 import { PhrasesModule } from './phrases/phrases.module';
 import { StatsModule } from './stats/stats.module';
 import { LightnerModule } from './lightner/lightner.module';
+import { ConversationsModule } from './conversations/conversations.module';
 
 @Module({
   imports: [
@@ -36,6 +37,7 @@ import { LightnerModule } from './lightner/lightner.module';
     PhrasesModule,
     StatsModule,
     LightnerModule,
+    ConversationsModule,
   ],
   providers: [ClassSerializerProvider, TransformProvider],
 })
