@@ -51,6 +51,14 @@ export class ConversationsService extends BaseService {
       await this.prisma.conversation.update({
         where: { id: conversation.id },
         data: dto,
+        select: {
+          id: true,
+          title: true,
+          meaning: true,
+          characters: true,
+          created_at: true,
+          items: true,
+        },
       });
     } catch (error) {
       this.catchError(error, ConversationsService.name);

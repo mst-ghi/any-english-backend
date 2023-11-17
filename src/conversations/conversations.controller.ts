@@ -83,13 +83,15 @@ export class ConversationsController {
     summary: 'update conversation',
   })
   @ApiParam({ name: 'id', description: 'conversation id' })
-  @ApiResponse({ status: 200, type: BaseResponse })
+  @ApiResponse({ status: 200, type: ConversationResponse })
   @AdminGuard()
   async update(
     @Param('id') conversationId: string,
     @Body() dto: UpdateConversationDto,
-  ) {
-    await this.service.update(conversationId, dto);
+  ): Promise<ConversationResponse> {
+    return {
+      conversation: await this.service.update(conversationId, dto),
+    };
   }
 
   @ApiSignature({

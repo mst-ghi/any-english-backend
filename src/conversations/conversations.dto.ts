@@ -7,6 +7,11 @@ export class CreateConversationDto {
   @ApiProperty()
   title: string;
 
+  @IsString()
+  @IsNotEmpty()
+  @ApiProperty()
+  meaning: string;
+
   @IsString({ each: true })
   @ArrayMinSize(2)
   @IsArray()
@@ -20,6 +25,11 @@ export class UpdateConversationDto {
   @IsNotEmpty()
   @ApiProperty()
   title: string;
+
+  @IsString()
+  @IsNotEmpty()
+  @ApiProperty()
+  meaning: string;
 
   @IsString({ each: true })
   @ArrayMinSize(2)

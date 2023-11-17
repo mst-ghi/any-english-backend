@@ -9,6 +9,9 @@ export class ConversationModel {
   title: string;
 
   @ApiProperty()
+  meaning: string;
+
+  @ApiProperty()
   characters: string[];
 
   @ApiProperty()

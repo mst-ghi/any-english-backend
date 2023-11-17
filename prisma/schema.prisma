@@ -84,6 +84,7 @@ model Lightner {
 model Conversation {
   id         String   @id @default(cuid())
   title      String
+  meaning    String
   characters String[]
   created_at DateTime @default(now())
 
