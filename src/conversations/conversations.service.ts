@@ -103,7 +103,19 @@ export class ConversationsService extends BaseService {
   async getOneConversation(conversationId: string, throwable = true) {
     const conversation = await this.prisma.conversation.findFirst({
       where: { id: conversationId },
-      include: { items: true },
+      include: {
+        items: {
+          orderBy: { created_at: 'asc' },
+          select: {
+            id: true,
+            conversation_id: true,
+            character: true,
+            phrase: true,
+            meaning: true,
+            created_at: true,
+          },
+        },
+      },
     });
 
     if (!conversation && throwable) {
