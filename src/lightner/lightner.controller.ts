@@ -1,4 +1,4 @@
-import { Body, Controller, Logger, Query } from '@nestjs/common';
+import { Body, Controller, Query } from '@nestjs/common';
 import { ApiQuery, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { LightnerService } from './lightner.service';
 import { LightnersResponse } from './lightner.responses';
@@ -8,7 +8,6 @@ import {
   ApiSignature,
   AuthGuard,
   BaseResponse,
-  LightnerLevelEnum,
   LightnerTypeEnum,
   UserId,
 } from '@app/toolkit';
@@ -21,14 +20,7 @@ export class LightnerController {
   @ApiSignature({
     method: 'GET',
     path: '/',
-    summary: 'word list',
-    isPagination: true,
-  })
-  @ApiQuery({
-    name: 'level',
-    description: 'level of lightner',
-    required: false,
-    enum: LightnerLevelEnum,
+    summary: 'lightner list data',
   })
   @ApiQuery({
     name: 'type',
@@ -40,35 +32,17 @@ export class LightnerController {
   @AuthGuard()
   async list(
     @UserId() userId: string,
-    @Query('page') page: string,
-    @Query('take') take: string,
-    @Query('level') level: string,
     @Query('type') type: LightnerTypeEnum,
   ): Promise<LightnersResponse> {
-    let levelTrueValue: number;
-
-    if (level) {
-      try {
-        levelTrueValue = Number(level);
-      } catch (error) {
-        Logger.error('level query is invalid: ' + level, 'LightnerController');
-      }
-    }
-
-    const { data, meta } = await this.service.list({
-      userId,
-      page,
-      take,
-      type:
-        type && [LightnerTypeEnum.Phrase, LightnerTypeEnum.Word].includes(type)
-          ? type
-          : undefined,
-      level: levelTrueValue,
-    });
-
     return {
-      lightners: data,
-      meta,
+      lightners: await this.service.list({
+        userId,
+        type:
+          type &&
+          [LightnerTypeEnum.Phrase, LightnerTypeEnum.Word].includes(type)
+            ? type
+            : undefined,
+      }),
     };
   }
 

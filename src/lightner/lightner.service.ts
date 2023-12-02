@@ -4,19 +4,7 @@ import { LightnerPhraseDto, LightnerWordDto } from './lightner.dto';
 
 @Injectable()
 export class LightnerService extends BaseService {
-  async list({
-    userId,
-    page,
-    take,
-    type,
-    level,
-  }: {
-    userId: string;
-    page?: string;
-    take?: string;
-    type?: LightnerTypeEnum;
-    level?: number;
-  }) {
+  async list({ userId, type }: { userId: string; type?: LightnerTypeEnum }) {
     const query: any = {
       where: {
         user_id: userId,
@@ -50,10 +38,6 @@ export class LightnerService extends BaseService {
       orderBy: { created_at: 'asc' },
     };
 
-    if (level) {
-      query.where['level'] = level;
-    }
-
     if (type) {
       if (type === LightnerTypeEnum.Word) {
         query.where['phrase_id'] = { equals: null };
@@ -62,15 +46,7 @@ export class LightnerService extends BaseService {
       }
     }
 
-    this.prisma.lightner.findMany({
-      where: {
-        word_id: {
-          equals: null,
-        },
-      },
-    });
-
-    return this.prisma.paginate('lightner', { page, take }, query);
+    return this.prisma.lightner.findMany(query);
   }
 
   async upsertWord(userId: string, dto: LightnerWordDto) {
