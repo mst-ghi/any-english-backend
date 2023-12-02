@@ -10,3 +10,11 @@ export class LightnerResponse extends BaseResponse {
   @ApiProperty({ type: () => LightnerModel })
   lightner: any;
 }
+
+export class LightnerCountsResponse extends BaseResponse {
+  @ApiProperty()
+  word_id: number;
+
+  @ApiProperty()
+  phrase_id: number;
+}

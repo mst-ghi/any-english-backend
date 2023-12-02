@@ -1,7 +1,10 @@
 import { Body, Controller, Query } from '@nestjs/common';
 import { ApiQuery, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { LightnerService } from './lightner.service';
-import { LightnersResponse } from './lightner.responses';
+import {
+  LightnerCountsResponse,
+  LightnersResponse,
+} from './lightner.responses';
 import { LightnerPhraseDto, LightnerWordDto } from './lightner.dto';
 
 import {
@@ -44,6 +47,17 @@ export class LightnerController {
             : undefined,
       }),
     };
+  }
+
+  @ApiSignature({
+    method: 'GET',
+    path: '/counts',
+    summary: 'lightner list counts',
+  })
+  @ApiResponse({ status: 200, type: LightnerCountsResponse })
+  @AuthGuard()
+  async counts(@UserId() userId: string): Promise<LightnerCountsResponse> {
+    return await this.service.counts(userId);
   }
 
   @ApiSignature({

@@ -49,6 +49,24 @@ export class LightnerService extends BaseService {
     return this.prisma.lightner.findMany(query);
   }
 
+  async counts(userId: string) {
+    try {
+      const result = await this.prisma.lightner.aggregate({
+        where: {
+          user_id: userId,
+        },
+        _count: {
+          word_id: true,
+          phrase_id: true,
+        },
+      });
+
+      return result._count;
+    } catch (error) {
+      this.catchError(error, LightnerService.name);
+    }
+  }
+
   async upsertWord(userId: string, dto: LightnerWordDto) {
     try {
       const lightner = await this.prisma.lightner.findFirst({

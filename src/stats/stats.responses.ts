@@ -6,6 +6,17 @@ export class LastWordResponse extends BaseResponse {
   word: any;
 }
 
+export class StatsCountResponse extends BaseResponse {
+  @ApiProperty()
+  words: number;
+
+  @ApiProperty()
+  phrases: number;
+
+  @ApiProperty()
+  conversations: number;
+}
+
 export class WordsCountResponse extends BaseResponse {
   @ApiProperty()
   count: number;

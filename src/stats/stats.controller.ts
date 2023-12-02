@@ -5,6 +5,7 @@ import { ApiResponse, ApiTags } from '@nestjs/swagger';
 import {
   LastWordResponse,
   PhrasesCountResponse,
+  StatsCountResponse,
   WordsCountResponse,
 } from './stats.responses';
 
@@ -12,6 +13,16 @@ import {
 @Controller('stats')
 export class StatsController {
   constructor(private readonly service: StatsService) {}
+
+  @ApiSignature({
+    method: 'GET',
+    path: '/',
+    summary: 'get all stats',
+  })
+  @ApiResponse({ status: 200, type: StatsCountResponse })
+  async all(): Promise<StatsCountResponse> {
+    return await this.service.allStats();
+  }
 
   @ApiSignature({
     method: 'GET',
