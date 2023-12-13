@@ -4,4 +4,5 @@
 coverage
 documents
 /prisma/**/*.js
+/prisma/**/*.json
 pnpm-lock.yaml

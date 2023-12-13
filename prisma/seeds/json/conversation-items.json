@@ -1,0 +1,290 @@
+[
+  {
+    "id": "clp51u4h9000w1k361d2ieqel",
+    "conversation_id": "clp51f3f5000g1k36e1wcpocj",
+    "character": "alice",
+    "phrase": "I sure do. You are right the beach is a good idea. And it won't be crowded. Do you think we need to make a reservation anywhere?",
+    "meaning": "البته که دارم. حق با توست. کنار دریا فکر خوبی است و شلوغ هم نخواهد بود. فکر می‌کنی لازم باشد جای اتاق رزرو کنیم؟",
+    "created_at": "2023-11-19T05:40:20.397Z"
+  },
+  {
+    "id": "clp51wsw3000y1k366k2wmrza",
+    "conversation_id": "clp51f3f5000g1k36e1wcpocj",
+    "character": "peter",
+    "phrase": "No, I don't think so. There are lots of places to stay. And they will be cheaper now than they are in the summer.",
+    "meaning": "نه, اینطور فکر نمی‌کنم. کلی جا برای اقامت هست و الان از آنچه در تابستان است ارزان‌تر خواهد بود.",
+    "created_at": "2023-11-19T05:42:25.348Z"
+  },
+  {
+    "id": "clp52iej400111k36eslgsfr2",
+    "conversation_id": "clp52eyat000z1k36y2oqlz2i",
+    "character": "mike",
+    "phrase": "Wake up Tom, don't you have to go to the airport?",
+    "meaning": "بیدار شو تام, نباید به فرودگاه بروی؟",
+    "created_at": "2023-11-19T05:59:13.168Z"
+  },
+  {
+    "id": "clp28fw8o0003a3fmxuez9max",
+    "conversation_id": "clozummf30000a4i3deu7ql1y",
+    "character": "Andrea",
+    "phrase": "what's wrong Eric?",
+    "meaning": "مشکل چیه اریک",
+    "created_at": "2023-11-17T06:21:55.320Z"
+  },
+  {
+    "id": "clp28h6650005a3fmgdwjtncp",
+    "conversation_id": "clozummf30000a4i3deu7ql1y",
+    "character": "Eric",
+    "phrase": "I'm really nervous. I'm always this way on the first day of school",
+    "meaning": "واقعا مضطربم. همیشه روز اول مدرسه اینجوریم",
+    "created_at": "2023-11-17T06:22:54.846Z"
+  },
+  {
+    "id": "clp3jqow90001y6wegxqhwye4",
+    "conversation_id": "clozummf30000a4i3deu7ql1y",
+    "character": "Andrea",
+    "phrase": "you're not the only one. It's hot for me too. I'm glad we're taking this class together.",
+    "meaning": "فقط تو اینطوری نیستی. برای من هم سخته است. خوشحالم با همین کلاس رو برداشتیم",
+    "created_at": "2023-11-18T04:26:00.970Z"
+  },
+  {
+    "id": "clp3jy0o20003y6weezyivdcm",
+    "conversation_id": "clozummf30000a4i3deu7ql1y",
+    "character": "Eric",
+    "phrase": "do you know anything about the teacher?",
+    "meaning": "هیچ چیزی از معلمش می‌دانی",
+    "created_at": "2023-11-18T04:31:42.818Z"
+  },
+  {
+    "id": "clp3jzv0d0005y6wefh4a517f",
+    "conversation_id": "clozummf30000a4i3deu7ql1y",
+    "character": "Andrea",
+    "phrase": "a little, someone told me she gives a lot of homework, and you have to talk a lot in class",
+    "meaning": "یکمی, یکی به من گفت خیلی تکلیف می‌دهد و زیاد باید در کلاس صحبت کنی",
+    "created_at": "2023-11-18T04:33:08.797Z"
+  },
+  {
+    "id": "clp3k0yav0007y6wehq2jj52s",
+    "conversation_id": "clozummf30000a4i3deu7ql1y",
+    "character": "Eric",
+    "phrase": "oh no, I'm afraid of talking in front of a lot of people",
+    "meaning": "وای نه من از صحبت کردن جلوی تعداد زیاد آدم‌ها می‌ترسم",
+    "created_at": "2023-11-18T04:33:59.719Z"
+  },
+  {
+    "id": "clp3k5f5q0009y6weyewpnm9n",
+    "conversation_id": "clozummf30000a4i3deu7ql1y",
+    "character": "Andrea",
+    "phrase": "don't oh don't worry everyone's afraid at the beginning, but after you get to know the people and make friends...",
+    "meaning": "اوه نگران نباش, اولش همه می‌ترسن, ولی بعد از اینکه فرصت آشنایی با آدم‌ها را پیدا کنی و دوست پیدا کنی...",
+    "created_at": "2023-11-18T04:37:28.190Z"
+  },
+  {
+    "id": "clp3k9iww000by6weoqom9kny",
+    "conversation_id": "clozummf30000a4i3deu7ql1y",
+    "character": "Eric",
+    "phrase": "it doesn't get better for me. I'm shy. I have trouble looking at people when I talk, and my hands shake",
+    "meaning": "برای من بهتر نمی‌شود. من خجالتیم. وقتی حرف میزنم در نگاه کردن به مردم مشکل دارم و دستانم می‌لرزد",
+    "created_at": "2023-11-18T04:40:39.680Z"
+  },
+  {
+    "id": "clp3katoi000dy6wemxfhg28n",
+    "conversation_id": "clozummf30000a4i3deu7ql1y",
+    "character": "Andrea",
+    "phrase": "look... the teachers here. let's talk after class",
+    "meaning": "ببین معلم اینجاست. بزار بعد از کلاس حرف بزنیم",
+    "created_at": "2023-11-18T04:41:40.291Z"
+  },
+  {
+    "id": "clp3kgjvk000gy6wedtg87y78",
+    "conversation_id": "clp3kegcn000ey6we5tmux89m",
+    "character": "anna",
+    "phrase": "hello",
+    "meaning": "سلام",
+    "created_at": "2023-11-18T04:46:07.521Z"
+  },
+  {
+    "id": "clp3khbi5000ky6we0f0xvphg",
+    "conversation_id": "clp3kegcn000ey6we5tmux89m",
+    "character": "anna",
+    "phrase": "who is this?",
+    "meaning": "شما؟",
+    "created_at": "2023-11-18T04:46:43.325Z"
+  },
+  {
+    "id": "clp3khnoz000my6wee9dttfuc",
+    "conversation_id": "clp3kegcn000ey6we5tmux89m",
+    "character": "alex",
+    "phrase": "it's Alex",
+    "meaning": "من الکسم",
+    "created_at": "2023-11-18T04:46:59.123Z"
+  },
+  {
+    "id": "clp3kgs26000iy6weefuvw2zk",
+    "conversation_id": "clp3kegcn000ey6we5tmux89m",
+    "character": "alex",
+    "phrase": "hi Sara",
+    "meaning": "سلام سارا",
+    "created_at": "2023-11-18T04:46:18.126Z"
+  },
+  {
+    "id": "clp511xgy00011k3640ki5u80",
+    "conversation_id": "clp3kegcn000ey6we5tmux89m",
+    "character": "anna",
+    "phrase": "hi Alex. this is Anna. hold on a minute and I will get Sara. Sara, it's for you",
+    "meaning": "سلام الکس. من آنا هستم. یک لحظه گوش را داشته باش تا من سارا را پیدا کنم. سارا تلفن برای توست",
+    "created_at": "2023-11-19T05:18:24.946Z"
+  },
+  {
+    "id": "clp512n8u00031k36dy6xf2ay",
+    "conversation_id": "clp3kegcn000ey6we5tmux89m",
+    "character": "Sara",
+    "phrase": "I will be right there",
+    "meaning": "الان میایم آنجا",
+    "created_at": "2023-11-19T05:18:58.350Z"
+  },
+  {
+    "id": "clp5142ed00051k36pt2uyifx",
+    "conversation_id": "clp3kegcn000ey6we5tmux89m",
+    "character": "Sara",
+    "phrase": "Alex? hi",
+    "meaning": "الکس سلام",
+    "created_at": "2023-11-19T05:20:04.646Z"
+  },
+  {
+    "id": "clp5151st00071k365bkfhlv9",
+    "conversation_id": "clp3kegcn000ey6we5tmux89m",
+    "character": "alex",
+    "phrase": "hi Sarah. want to go to the movies on Friday night?",
+    "meaning": "سلام سارا می‌خوای جمعه شب سینما برویم",
+    "created_at": "2023-11-19T05:20:50.525Z"
+  },
+  {
+    "id": "clp5167lg00091k36d0gsd2cu",
+    "conversation_id": "clp3kegcn000ey6we5tmux89m",
+    "character": "Sara",
+    "phrase": "I'm really sorry, but I can't make it Friday night. how about Saturday?",
+    "meaning": "واقعا معذرت می‌خوام. ولی جمعه شب نمی‌رسم. شنبه چطور است",
+    "created_at": "2023-11-19T05:21:44.693Z"
+  },
+  {
+    "id": "clp5181jl000b1k36l1tffhcr",
+    "conversation_id": "clp3kegcn000ey6we5tmux89m",
+    "character": "alex",
+    "phrase": "sure, why don't I pick up you at 7:00?",
+    "meaning": "حتماً, چرا ساعت ۷ نیایم دنبالت",
+    "created_at": "2023-11-19T05:23:10.161Z"
+  },
+  {
+    "id": "clp51af9j000d1k36tjmgssj9",
+    "conversation_id": "clp3kegcn000ey6we5tmux89m",
+    "character": "Sara",
+    "phrase": "that sounds great. Alex, I'm sorry. My parents are calling me for dinner and I have to get off. See you Saturday",
+    "meaning": "به نظر عالی است. الکس معذرت می‌خواهم. پدر و مادرم دارند مرا برای شام صدایم می‌کنند و باید بروم. شنبه می‌بینمت",
+    "created_at": "2023-11-19T05:25:01.255Z"
+  },
+  {
+    "id": "clp51bazm000f1k363wswhvm2",
+    "conversation_id": "clp3kegcn000ey6we5tmux89m",
+    "character": "alex",
+    "phrase": "great, see you, bye",
+    "meaning": "عالی است, می‌بینمت, خداحافظ",
+    "created_at": "2023-11-19T05:25:42.371Z"
+  },
+  {
+    "id": "clp51hrek000i1k368e9rniv6",
+    "conversation_id": "clp51f3f5000g1k36e1wcpocj",
+    "character": "peter",
+    "phrase": "you know, we have a three-day weekend next month. Do you want to go away?",
+    "meaning": "میدانی, ماه بعد یک تعطیلی سه روزه داریم. می‌خواهی برویم جایی",
+    "created_at": "2023-11-19T05:30:43.580Z"
+  },
+  {
+    "id": "clp51ioaq000k1k36h75vsuul",
+    "conversation_id": "clp51f3f5000g1k36e1wcpocj",
+    "character": "alice",
+    "phrase": "that's a great idea, where do you want to go?",
+    "meaning": "فکر محشری از کجا می‌خوای برویم؟",
+    "created_at": "2023-11-19T05:31:26.211Z"
+  },
+  {
+    "id": "clp51j3xv000m1k360qtxam72",
+    "conversation_id": "clp51f3f5000g1k36e1wcpocj",
+    "character": "peter",
+    "phrase": "to the beach.",
+    "meaning": "کنار ساحل دریا",
+    "created_at": "2023-11-19T05:31:46.483Z"
+  },
+  {
+    "id": "clp51jt8r000o1k36ds81rg8h",
+    "conversation_id": "clp51f3f5000g1k36e1wcpocj",
+    "character": "alice",
+    "phrase": "the beach, in the winter?",
+    "meaning": "کنار ساحل, در زمستان",
+    "created_at": "2023-11-19T05:32:19.276Z"
+  },
+  {
+    "id": "clp51kydf000q1k362rb656u5",
+    "conversation_id": "clp51f3f5000g1k36e1wcpocj",
+    "character": "peter",
+    "phrase": "We don't have to go swimming, We can take walks on the beach.",
+    "meaning": "مجبور نیستیم برویم شنا. می‌توانیم در ساحل قدم بزنیم",
+    "created_at": "2023-11-19T05:33:12.579Z"
+  },
+  {
+    "id": "clp51lqul000s1k36dlrq5fdl",
+    "conversation_id": "clp51f3f5000g1k36e1wcpocj",
+    "character": "alice",
+    "phrase": "but what else can we do?",
+    "meaning": "ولی این چه کار دیگری می‌توانیم بکنیم",
+    "created_at": "2023-11-19T05:33:49.485Z"
+  },
+  {
+    "id": "clp51prwj000u1k36lxz9qous",
+    "conversation_id": "clp51f3f5000g1k36e1wcpocj",
+    "character": "peter",
+    "phrase": "There are plenty of things to do. We can read, can go to the movies. I need to relax, don't you?",
+    "meaning": "کلی کار برای انجام دادن است. می‌توانیم کتاب بخوانیم, سینما برویم, من نیاز به دارم آرامش کسب کنم, تو نیاز نداری؟",
+    "created_at": "2023-11-19T05:36:57.476Z"
+  },
+  {
+    "id": "clp52k4wd00131k36vvod283v",
+    "conversation_id": "clp52eyat000z1k36y2oqlz2i",
+    "character": "tom",
+    "phrase": "Yeah, I will get up in 5 minutes. I don't want to get out of bed, it's so early.",
+    "meaning": "آره ۵ دقیقه دیگر بلند می‌شوم, نمی‌خواهم از رخت خواب بیایم بیرون, خیلی زود است.",
+    "created_at": "2023-11-19T06:00:33.997Z"
+  },
+  {
+    "id": "clp52m1ie00151k36blffwb7t",
+    "conversation_id": "clp52eyat000z1k36y2oqlz2i",
+    "character": "mike",
+    "phrase": "Well, I'm going back to sleep. I hope you won't miss your plane. Have a good trip.",
+    "meaning": "خوب, من دوباره می‌خوابم. امیدوارم پروازت را از دست ندهی. سفر خوبی داشته باشی.",
+    "created_at": "2023-11-19T06:02:02.919Z"
+  },
+  {
+    "id": "clp52mfhh00171k36yugqryb3",
+    "conversation_id": "clp52eyat000z1k36y2oqlz2i",
+    "character": "tom",
+    "phrase": "thanks, Mike.",
+    "meaning": "ممنونم مایک",
+    "created_at": "2023-11-19T06:02:21.030Z"
+  },
+  {
+    "id": "clp52uoci00191k36ac36skac",
+    "conversation_id": "clp52eyat000z1k36y2oqlz2i",
+    "character": "tom",
+    "phrase": "Why did I go to bed so late last night? It's so hard to get up, and it's so cold and dark, but I need to get up now and take a shower.",
+    "meaning": "اوه چرا دیشب انقدر دیر به رختخواب رفتم؟ بلند شدم خیلی سخت است, و خیلی سر و تاریک است, ولی الان باید بلند شوم و دوش بگیرم",
+    "created_at": "2023-11-19T06:08:45.762Z"
+  },
+  {
+    "id": "clp52xim2001b1k364bj7kv8f",
+    "conversation_id": "clp52eyat000z1k36y2oqlz2i",
+    "character": "tom",
+    "phrase": "What time is it? 6:00,  Oh no, I'm late. I don't have time for a shower. I have to get dressed and get to the airport right now.",
+    "meaning": "ساعت چند است؟ ۶؟ وای نه دیرم شد. ولی وقتی برای دوش گرفتن ندارم. باید لباس بپوشم و فوری به فرودگاه برسم.",
+    "created_at": "2023-11-19T06:10:58.298Z"
+  }
+]

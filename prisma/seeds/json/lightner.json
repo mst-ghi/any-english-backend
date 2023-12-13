@@ -1,0 +1,474 @@
+[
+  {
+    "id": "clpjom6p4000la1x1346fdco3",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "clobfebr2007glyi8oiay114z",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-11-29T11:26:47.657Z"
+  },
+  {
+    "id": "clpjom74d000na1x1r6yv5712",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "clobfcuto007blyi8z54ks0du",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-11-29T11:26:48.205Z"
+  },
+  {
+    "id": "clpo7c8ae000dyb19sjnph15n",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa4zjko0007ly2sqfgmdfv7",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:00.566Z"
+  },
+  {
+    "id": "clpo7c9ic000fyb19szk2w0v0",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa5464z000cly2sjkendp78",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:02.149Z"
+  },
+  {
+    "id": "clpo7ca00000hyb193knvkmsz",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa55tkd000hly2sr3sy5jt1",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:02.784Z"
+  },
+  {
+    "id": "clpo7cb7t000jyb19irkorpyu",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa5mklj000mly2svd8bg2qi",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:04.362Z"
+  },
+  {
+    "id": "clpo7cc0n000lyb196lcod20x",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa5pm51000rly2sjaq71itq",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:05.400Z"
+  },
+  {
+    "id": "clpo7cckb000nyb197i7lee05",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa5sta7000wly2sxop4t2u7",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:06.107Z"
+  },
+  {
+    "id": "clpo7cdwi000pyb19tpovuf0w",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa5vbjd0011ly2sinj5t1dn",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:07.842Z"
+  },
+  {
+    "id": "clpo7cfj2000ryb19ijgz0mna",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa5xwej0016ly2sj232huq9",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:09.951Z"
+  },
+  {
+    "id": "clpo7cg38000tyb19avze1n3w",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa5z0qz001bly2syj7ztgq8",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:10.677Z"
+  },
+  {
+    "id": "clpo7cgr2000vyb19ph178x3c",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa61jz0001gly2sk2jznyjh",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:11.535Z"
+  },
+  {
+    "id": "clpo7chda000xyb193mgfoi7k",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa6312d001lly2snlt6dc7c",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:12.334Z"
+  },
+  {
+    "id": "clpo7cipe000zyb19wz83ph9f",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa64bvq001qly2sds81ctsb",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:14.066Z"
+  },
+  {
+    "id": "clpo7cjca0011yb19mdcyof4t",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa66bw7001vly2swopbrb5y",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:14.890Z"
+  },
+  {
+    "id": "clpo7cjwe0013yb19xnwre4ks",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa683zl0020ly2sb9pbhedf",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:15.615Z"
+  },
+  {
+    "id": "clpo7cp9p0015yb19ku7e4yvs",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa69cyg0025ly2sz8fsztl2",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:22.573Z"
+  },
+  {
+    "id": "clpo7cpxn0017yb19nti1rufp",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa6nukx0000ly6biofk4ixf",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:23.435Z"
+  },
+  {
+    "id": "clpo7cqli0019yb198ya9kpj3",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa6pbja0005ly6b9gzmob1a",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:24.294Z"
+  },
+  {
+    "id": "clpo7csu9001byb19uxaxr3ar",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa6r8ae000aly6bicnwvpg3",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:27.202Z"
+  },
+  {
+    "id": "clpo7ctfp001dyb19i4wmgssd",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa6st1i000fly6b26r0vb5c",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:27.974Z"
+  },
+  {
+    "id": "clpo7ctyp001fyb19bgmc3w2p",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa6ubly000kly6bs4eneamm",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:28.657Z"
+  },
+  {
+    "id": "clpjom5s1000ha1x1bbrxsspi",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "clobfilcj007qlyi85qlj1zhe",
+    "phrase_id": null,
+    "level": 3,
+    "created_at": "2023-11-29T11:26:46.466Z"
+  },
+  {
+    "id": "clpo5graw0005yb19ebkm6fpe",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": null,
+    "phrase_id": "cloya2zau003olymv76yhdmkp",
+    "level": 4,
+    "created_at": "2023-12-02T14:29:32.600Z"
+  },
+  {
+    "id": "clpjom685000ja1x1k2jutqod",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "clobfh32u007llyi88mhy1403",
+    "phrase_id": null,
+    "level": 3,
+    "created_at": "2023-11-29T11:26:47.045Z"
+  },
+  {
+    "id": "clpjo9p100005a1x1tr1jq8t0",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": null,
+    "phrase_id": "clob9e0ur000flyi8oe08ubt2",
+    "level": 3,
+    "created_at": "2023-11-29T11:17:04.884Z"
+  },
+  {
+    "id": "clpjo9mg80003a1x1nrec0ciz",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": null,
+    "phrase_id": "clob9ezf7000hlyi8sfauuqr0",
+    "level": 3,
+    "created_at": "2023-11-29T11:17:01.545Z"
+  },
+  {
+    "id": "clpo5gm9v0001yb19emr5h109",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": null,
+    "phrase_id": "cloy9nny8002mlymv0dg9pn3q",
+    "level": 3,
+    "created_at": "2023-12-02T14:29:26.083Z"
+  },
+  {
+    "id": "clpo7c6e60007yb19s9oxtny0",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "clo6rjb220002lyi6gan1si63",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:21:58.111Z"
+  },
+  {
+    "id": "clpo7c6z20009yb19nfi9zq1i",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "clo6rkghh0005lyi6u8thll6d",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:21:58.862Z"
+  },
+  {
+    "id": "clpo7c7md000byb19sq5pa174",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa4y0sl0002ly2s5sng56qa",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:21:59.702Z"
+  },
+  {
+    "id": "clpo7cuj1001hyb19qvsefcjo",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa6w9wm000ply6bzxqxz600",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:29.390Z"
+  },
+  {
+    "id": "clpo7cv8m001jyb199rswwjl4",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa6y81z000uly6bsepomkio",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:30.310Z"
+  },
+  {
+    "id": "clpo7cwms001lyb19i7h9tv5z",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa71j0w000zly6bdsozw6tz",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:32.117Z"
+  },
+  {
+    "id": "clpo7cx4c001nyb19n21nw03y",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa72zgf0014ly6bt3a8hhby",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:32.748Z"
+  },
+  {
+    "id": "clpo7cxn8001pyb19bwftmsst",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa75wrt0019ly6b8t4xds5k",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:33.428Z"
+  },
+  {
+    "id": "clpo7cy8j001ryb19jcu7zpdp",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa78onv001ely6bs6rsyyr6",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:34.196Z"
+  },
+  {
+    "id": "clpo7cyyo001tyb199zlb695j",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloa7a06z001jly6b2jfpspx5",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:35.136Z"
+  },
+  {
+    "id": "clpo7d10d001vyb1982kjgmyk",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloazvame0000lyokqcxjgdjj",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:37.790Z"
+  },
+  {
+    "id": "clpo7d1id001xyb19ciohchfy",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloazxgr60005lyok3apwfni2",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:38.438Z"
+  },
+  {
+    "id": "clpo7d29m001zyb19dyork1ha",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "clob0dy6w000alyokwzzv7zgv",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:39.418Z"
+  },
+  {
+    "id": "clpo7d2y60021yb192hs5xy7g",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "clob0ga7f000flyokl5i7bd93",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:40.303Z"
+  },
+  {
+    "id": "clpo7d49i0023yb19ji05ss7o",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "clob0i8no000klyokgrwh6w42",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:42.006Z"
+  },
+  {
+    "id": "clpo7d4tr0025yb19f1kxgf4i",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "clob0m5ma000plyokzakv75xs",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:42.735Z"
+  },
+  {
+    "id": "clpo7d5dm0027yb19u36w18ug",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "clob0p7nl000ulyoklhc4otge",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:43.450Z"
+  },
+  {
+    "id": "clpo7d5x50029yb19xq2rs6i6",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "clob0qgwd000zlyokwxu9mpyo",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:44.154Z"
+  },
+  {
+    "id": "clpo7d770002byb198m3d7mb2",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "clob0s6p60014lyokl5rmg2ru",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:45.804Z"
+  },
+  {
+    "id": "clpo7d7sc002dyb19kw7e2rnl",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "clob0uokq0019lyokw54q6nvb",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-12-02T15:22:46.572Z"
+  },
+  {
+    "id": "clpjoktdv000da1x11z5zddvq",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "cloce90om001jlyj12xkey8h1",
+    "phrase_id": null,
+    "level": 3,
+    "created_at": "2023-11-29T11:25:43.748Z"
+  },
+  {
+    "id": "clpjoakyn0007a1x1xslimtye",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": "clobf4ui3006rlyi8pap9c7br",
+    "phrase_id": null,
+    "level": 4,
+    "created_at": "2023-11-29T11:17:46.272Z"
+  },
+  {
+    "id": "clq0hi9100001mqcyvy3irprj",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": null,
+    "phrase_id": "clo6rjufh0004lyi63njf6j4h",
+    "level": 4,
+    "created_at": "2023-12-11T05:39:51.732Z"
+  },
+  {
+    "id": "clq0hi9og0003mqcysr7gdr4p",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": null,
+    "phrase_id": "clofg6jos004jly7zsun4i3m0",
+    "level": 4,
+    "created_at": "2023-12-11T05:39:52.577Z"
+  },
+  {
+    "id": "clq0hib7o0005mqcy9c5spt2e",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": null,
+    "phrase_id": "clo6rkydx0007lyi641maow9v",
+    "level": 4,
+    "created_at": "2023-12-11T05:39:54.564Z"
+  },
+  {
+    "id": "clq0hibkx0007mqcynso93186",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": null,
+    "phrase_id": "clofg738s004lly7zyc6e3l98",
+    "level": 4,
+    "created_at": "2023-12-11T05:39:55.041Z"
+  },
+  {
+    "id": "clq0hidzz0009mqcyh7cjzwgo",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": null,
+    "phrase_id": "cloa4ynk50004ly2sas4it954",
+    "level": 4,
+    "created_at": "2023-12-11T05:39:58.175Z"
+  },
+  {
+    "id": "clq0hiefo000bmqcy20uc02c3",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": null,
+    "phrase_id": "cloa4z66w0006ly2s9gblmvo0",
+    "level": 4,
+    "created_at": "2023-12-11T05:39:58.741Z"
+  },
+  {
+    "id": "clq0higfy000dmqcyyy0tc406",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": null,
+    "phrase_id": "cloa50tts0009ly2sxo8dk1pm",
+    "level": 4,
+    "created_at": "2023-12-11T05:40:01.343Z"
+  },
+  {
+    "id": "clq0higuc000fmqcy3asc4cwx",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": null,
+    "phrase_id": "cloa51gdc000bly2sph2crpix",
+    "level": 4,
+    "created_at": "2023-12-11T05:40:01.861Z"
+  },
+  {
+    "id": "clpo5god90003yb196lh1r1r5",
+    "user_id": "clo6q6r0r0000lyedmjryjryy",
+    "word_id": null,
+    "phrase_id": "cloy9pgxm002rlymvy1n7wirb",
+    "level": 3,
+    "created_at": "2023-12-02T14:29:28.798Z"
+  }
+]

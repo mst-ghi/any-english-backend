@@ -31,7 +31,7 @@ then
 fi
 
 CURRENTDATE=`date +"%Y-%m-%d_%T"`
-BACKUPDIR="../backups/${CURRENTDATE}"
+BACKUPDIR="./prisma/backups/${CURRENTDATE}"
 
 mkdir -p ${BACKUPDIR}
 pg_dump "host=$Host port=$Port dbname=$DbName user=$Username password=$Password" > "$BACKUPDIR/$DbName.sql"

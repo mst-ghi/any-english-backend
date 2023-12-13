@@ -1,0 +1,2912 @@
+[
+  {
+    "id": "cloa5mklj000mly2svd8bg2qi",
+    "word": "have",
+    "meaning": "داشتن",
+    "created_at": "2023-10-28T14:45:35.047Z"
+  },
+  {
+    "id": "clobd5cve0030lyi8t1kgzu42",
+    "word": "more",
+    "meaning": "بیشتر / بیش",
+    "created_at": "2023-10-29T11:03:54.986Z"
+  },
+  {
+    "id": "clobctdeg002blyi8wd95mc5f",
+    "word": "how",
+    "meaning": "چگونه / چطور / طوری که",
+    "created_at": "2023-10-29T10:54:35.800Z"
+  },
+  {
+    "id": "clobcxvgz002llyi8s8pgiacx",
+    "word": "its",
+    "meaning": "مال آن",
+    "created_at": "2023-10-29T10:58:05.843Z"
+  },
+  {
+    "id": "clobdm7xm003ulyi8yg1oxo6v",
+    "word": "also",
+    "meaning": "همچنین",
+    "created_at": "2023-10-29T11:17:01.738Z"
+  },
+  {
+    "id": "clobdo6jl003zlyi8i21dqgxa",
+    "word": "new",
+    "meaning": "جدید",
+    "created_at": "2023-10-29T11:18:33.249Z"
+  },
+  {
+    "id": "clobdpsre0044lyi8ahwxxvt9",
+    "word": "because",
+    "meaning": "چون / زیرا",
+    "created_at": "2023-10-29T11:19:48.698Z"
+  },
+  {
+    "id": "clobdrok20049lyi8o7zbv3lb",
+    "word": "day",
+    "meaning": "روز",
+    "created_at": "2023-10-29T11:21:16.562Z"
+  },
+  {
+    "id": "clobdtkj5004elyi89xc32k4b",
+    "word": "use",
+    "meaning": "استفاده کردن",
+    "created_at": "2023-10-29T11:22:44.657Z"
+  },
+  {
+    "id": "clobduum9004jlyi8vx5vt2wp",
+    "word": "no",
+    "meaning": "نه / خیر / برای منفی کردن",
+    "created_at": "2023-10-29T11:23:44.385Z"
+  },
+  {
+    "id": "clobdxs4b004olyi8od5cjqjp",
+    "word": "man",
+    "meaning": "مرد / انسان",
+    "created_at": "2023-10-29T11:26:01.115Z"
+  },
+  {
+    "id": "clo6rkghh0005lyi6u8thll6d",
+    "word": "be",
+    "meaning": "بودن",
+    "created_at": "2023-10-26T05:48:43.253Z"
+  },
+  {
+    "id": "cloa4y0sl0002ly2s5sng56qa",
+    "word": "and",
+    "meaning": "و",
+    "created_at": "2023-10-28T14:26:29.637Z"
+  },
+  {
+    "id": "cloa4zjko0007ly2sqfgmdfv7",
+    "word": "of",
+    "meaning": "از",
+    "created_at": "2023-10-28T14:27:40.632Z"
+  },
+  {
+    "id": "cloa5464z000cly2sjkendp78",
+    "word": "in",
+    "meaning": "در / داخل",
+    "created_at": "2023-10-28T14:31:16.499Z"
+  },
+  {
+    "id": "cloa55tkd000hly2sr3sy5jt1",
+    "word": "to",
+    "meaning": "به / به سمت / با",
+    "created_at": "2023-10-28T14:32:33.517Z"
+  },
+  {
+    "id": "cloa5pm51000rly2sjaq71itq",
+    "word": "it",
+    "meaning": "آن / اشاره به دور",
+    "created_at": "2023-10-28T14:47:57.014Z"
+  },
+  {
+    "id": "cloa5sta7000wly2sxop4t2u7",
+    "word": "that",
+    "meaning": "که / آن",
+    "created_at": "2023-10-28T14:50:26.240Z"
+  },
+  {
+    "id": "cloa5xwej0016ly2sj232huq9",
+    "word": "you",
+    "meaning": "تو / شما",
+    "created_at": "2023-10-28T14:54:23.563Z"
+  },
+  {
+    "id": "cloa5z0qz001bly2syj7ztgq8",
+    "word": "he",
+    "meaning": "او (مذکر)",
+    "created_at": "2023-10-28T14:55:15.851Z"
+  },
+  {
+    "id": "cloa61jz0001gly2sk2jznyjh",
+    "word": "with",
+    "meaning": "با / همراه با",
+    "created_at": "2023-10-28T14:57:14.077Z"
+  },
+  {
+    "id": "cloa6312d001lly2snlt6dc7c",
+    "word": "on",
+    "meaning": "بر / بر روی / در",
+    "created_at": "2023-10-28T14:58:22.886Z"
+  },
+  {
+    "id": "cloa64bvq001qly2sds81ctsb",
+    "word": "do",
+    "meaning": "انجام دادن / کردن",
+    "created_at": "2023-10-28T14:59:23.559Z"
+  },
+  {
+    "id": "cloa66bw7001vly2swopbrb5y",
+    "word": "say",
+    "meaning": "گفتن / بیان کردن",
+    "created_at": "2023-10-28T15:00:56.888Z"
+  },
+  {
+    "id": "cloa683zl0020ly2sb9pbhedf",
+    "word": "this",
+    "meaning": "این / اشاره به نزدیک",
+    "created_at": "2023-10-28T15:02:19.953Z"
+  },
+  {
+    "id": "cloa69cyg0025ly2sz8fsztl2",
+    "word": "they",
+    "meaning": "آنها",
+    "created_at": "2023-10-28T15:03:18.232Z"
+  },
+  {
+    "id": "cloa6nukx0000ly6biofk4ixf",
+    "word": "at",
+    "meaning": "در / به سوی / به",
+    "created_at": "2023-10-28T15:14:34.257Z"
+  },
+  {
+    "id": "cloa6pbja0005ly6b9gzmob1a",
+    "word": "but",
+    "meaning": "اما / بلکه / مگر / ولی",
+    "created_at": "2023-10-28T15:15:42.887Z"
+  },
+  {
+    "id": "cloa6r8ae000aly6bicnwvpg3",
+    "word": "we",
+    "meaning": "ما",
+    "created_at": "2023-10-28T15:17:11.990Z"
+  },
+  {
+    "id": "cloa6st1i000fly6b26r0vb5c",
+    "word": "his",
+    "meaning": "مال او (مذکر)",
+    "created_at": "2023-10-28T15:18:25.543Z"
+  },
+  {
+    "id": "cloa6ubly000kly6bs4eneamm",
+    "word": "from",
+    "meaning": "از",
+    "created_at": "2023-10-28T15:19:36.263Z"
+  },
+  {
+    "id": "cloa6w9wm000ply6bzxqxz600",
+    "word": "not",
+    "meaning": "نه / برای منفی کردن",
+    "created_at": "2023-10-28T15:21:07.367Z"
+  },
+  {
+    "id": "cloa6y81z000uly6bsepomkio",
+    "word": "by",
+    "meaning": "توسط / به وسیله ی",
+    "created_at": "2023-10-28T15:22:38.279Z"
+  },
+  {
+    "id": "cloa71j0w000zly6bdsozw6tz",
+    "word": "she",
+    "meaning": "او (مونث)",
+    "created_at": "2023-10-28T15:25:12.464Z"
+  },
+  {
+    "id": "cloa72zgf0014ly6bt3a8hhby",
+    "word": "or",
+    "meaning": "یا / چه / خواه",
+    "created_at": "2023-10-28T15:26:20.416Z"
+  },
+  {
+    "id": "cloa75wrt0019ly6b8t4xds5k",
+    "word": "as",
+    "meaning": "مانند / چنانکه / بعنوان",
+    "created_at": "2023-10-28T15:28:36.906Z"
+  },
+  {
+    "id": "cloa78onv001ely6bs6rsyyr6",
+    "word": "what",
+    "meaning": "چه / چه چیزی / آنچه / کدام",
+    "created_at": "2023-10-28T15:30:46.363Z"
+  },
+  {
+    "id": "cloa7a06z001jly6b2jfpspx5",
+    "word": "go",
+    "meaning": "رفتن",
+    "created_at": "2023-10-28T15:31:47.963Z"
+  },
+  {
+    "id": "cloazvame0000lyokqcxjgdjj",
+    "word": "their",
+    "meaning": "مال آنها / خودشان",
+    "created_at": "2023-10-29T04:52:10.502Z"
+  },
+  {
+    "id": "clob0dy6w000alyokwzzv7zgv",
+    "word": "who",
+    "meaning": "چه کسی / کسی که",
+    "created_at": "2023-10-29T05:06:40.856Z"
+  },
+  {
+    "id": "clob0ga7f000flyokl5i7bd93",
+    "word": "get",
+    "meaning": "رسیدن / گرفتن / شدن",
+    "created_at": "2023-10-29T05:08:29.740Z"
+  },
+  {
+    "id": "clob0i8no000klyokgrwh6w42",
+    "word": "if",
+    "meaning": "اگر / آیا",
+    "created_at": "2023-10-29T05:10:01.045Z"
+  },
+  {
+    "id": "clob0m5ma000plyokzakv75xs",
+    "word": "would",
+    "meaning": "تمایل / تمایل داشتن / مایل بودن",
+    "created_at": "2023-10-29T05:13:03.730Z"
+  },
+  {
+    "id": "clob0p7nl000ulyoklhc4otge",
+    "word": "her",
+    "meaning": "مال او (مونث)",
+    "created_at": "2023-10-29T05:15:26.337Z"
+  },
+  {
+    "id": "clob0qgwd000zlyokwxu9mpyo",
+    "word": "all",
+    "meaning": "همه  / تمامی",
+    "created_at": "2023-10-29T05:16:24.973Z"
+  },
+  {
+    "id": "clob0s6p60014lyokl5rmg2ru",
+    "word": "my",
+    "meaning": "مال من",
+    "created_at": "2023-10-29T05:17:45.066Z"
+  },
+  {
+    "id": "clob0uokq0019lyokw54q6nvb",
+    "word": "make",
+    "meaning": "ساختن / درست کردن",
+    "created_at": "2023-10-29T05:19:41.546Z"
+  },
+  {
+    "id": "clob0wtoi001elyokcf6v7ywa",
+    "word": "about",
+    "meaning": "درباره / در مورد / حدود",
+    "created_at": "2023-10-29T05:21:21.474Z"
+  },
+  {
+    "id": "clob0yizr001jlyokzogwg3i2",
+    "word": "know",
+    "meaning": "دانستن / آگاهی داشتن",
+    "created_at": "2023-10-29T05:22:40.936Z"
+  },
+  {
+    "id": "clob10idn001olyok1aq56hnl",
+    "word": "will",
+    "meaning": "اراده / خواسته / برای بیان زمان آینده",
+    "created_at": "2023-10-29T05:24:13.452Z"
+  },
+  {
+    "id": "clob123z5001tlyok13afgc9r",
+    "word": "up",
+    "meaning": "بالا",
+    "created_at": "2023-10-29T05:25:28.098Z"
+  },
+  {
+    "id": "clob15gli001ylyok1p6utz7e",
+    "word": "one",
+    "meaning": "عدد یک / یکی",
+    "created_at": "2023-10-29T05:28:04.422Z"
+  },
+  {
+    "id": "clob16z360023lyokmnd1gr5s",
+    "word": "time",
+    "meaning": "زمان / وقت",
+    "created_at": "2023-10-29T05:29:15.043Z"
+  },
+  {
+    "id": "clob18co20028lyokc7w0ecja",
+    "word": "there",
+    "meaning": "آنجا / اشاره به جایی",
+    "created_at": "2023-10-29T05:30:19.298Z"
+  },
+  {
+    "id": "clob1dlzo002dlyokhcmg5h3o",
+    "word": "year",
+    "meaning": "سال",
+    "created_at": "2023-10-29T05:34:24.660Z"
+  },
+  {
+    "id": "clob1fc1a002ilyokew61qkt4",
+    "word": "so",
+    "meaning": "پس / بنابراین / این چنین",
+    "created_at": "2023-10-29T05:35:45.070Z"
+  },
+  {
+    "id": "clob1hxma002nlyok7f8aq2tw",
+    "word": "think",
+    "meaning": "فکر کردن",
+    "created_at": "2023-10-29T05:37:46.354Z"
+  },
+  {
+    "id": "clob1jn5w002slyoklvlyj0hp",
+    "word": "when",
+    "meaning": "چه وقت / وقتی که / زمانی که",
+    "created_at": "2023-10-29T05:39:06.116Z"
+  },
+  {
+    "id": "clob1mh4c002xlyok5vv720t0",
+    "word": "which",
+    "meaning": "کدام / چه / آنچه",
+    "created_at": "2023-10-29T05:41:18.253Z"
+  },
+  {
+    "id": "clob95iff0000lyi8siaec767",
+    "word": "them",
+    "meaning": "آنها را / به آنها",
+    "created_at": "2023-10-29T09:12:03.723Z"
+  },
+  {
+    "id": "clob99eld0005lyi8swxdrvkf",
+    "word": "some",
+    "meaning": "مقداری / کمی / برخی",
+    "created_at": "2023-10-29T09:15:05.377Z"
+  },
+  {
+    "id": "clob9buei000alyi83xjlht9v",
+    "word": "me",
+    "meaning": "به من / مرا",
+    "created_at": "2023-10-29T09:16:59.178Z"
+  },
+  {
+    "id": "clob9dcoz000dlyi8mqjwezsy",
+    "word": "people",
+    "meaning": "مردم / افراد",
+    "created_at": "2023-10-29T09:18:09.540Z"
+  },
+  {
+    "id": "clob9fbqs000ilyi8m87k5iqq",
+    "word": "take",
+    "meaning": "گرفتن / برداشتن / بردن",
+    "created_at": "2023-10-29T09:19:41.620Z"
+  },
+  {
+    "id": "clob9n1q6000nlyi8w831trpk",
+    "word": "out",
+    "meaning": "خارج / بیرون",
+    "created_at": "2023-10-29T09:25:41.887Z"
+  },
+  {
+    "id": "clob9pdhl000slyi8owt34z4z",
+    "word": "into",
+    "meaning": "داخل / توی",
+    "created_at": "2023-10-29T09:27:30.441Z"
+  },
+  {
+    "id": "clob9u7ty0012lyi8pgqncy7m",
+    "word": "see",
+    "meaning": "دیدن",
+    "created_at": "2023-10-29T09:31:16.390Z"
+  },
+  {
+    "id": "clob9wjr00017lyi857ytk5ed",
+    "word": "him",
+    "meaning": "او را / به او / از او",
+    "created_at": "2023-10-29T09:33:05.148Z"
+  },
+  {
+    "id": "clobby5va001clyi84zxumtn1",
+    "word": "your",
+    "meaning": "مال تو",
+    "created_at": "2023-10-29T10:30:19.703Z"
+  },
+  {
+    "id": "clobbzqwl001hlyi8zhxbuj9f",
+    "word": "come",
+    "meaning": "آمدن",
+    "created_at": "2023-10-29T10:31:33.621Z"
+  },
+  {
+    "id": "clobc4r6i001mlyi8ypx6t74c",
+    "word": "could",
+    "meaning": "توانستن",
+    "created_at": "2023-10-29T10:35:27.258Z"
+  },
+  {
+    "id": "clobc7k3f001rlyi8ubyqm0du",
+    "word": "now",
+    "meaning": "اکنون / الان / حالا",
+    "created_at": "2023-10-29T10:37:38.043Z"
+  },
+  {
+    "id": "clobc9cj8001wlyi8azswd001",
+    "word": "than",
+    "meaning": "نسبت به / تا اینکه / از",
+    "created_at": "2023-10-29T10:39:01.556Z"
+  },
+  {
+    "id": "clobcb95p0021lyi8of192bqe",
+    "word": "like",
+    "meaning": "مانند بودن / خوش آمدن",
+    "created_at": "2023-10-29T10:40:30.494Z"
+  },
+  {
+    "id": "clobcoqej0026lyi85j88y1ty",
+    "word": "other",
+    "meaning": "دیگر / دیگری / غیر",
+    "created_at": "2023-10-29T10:50:59.372Z"
+  },
+  {
+    "id": "clobcv91v002glyi8za7wkkxy",
+    "word": "then",
+    "meaning": "سپس / بعد / آنگاه",
+    "created_at": "2023-10-29T10:56:03.475Z"
+  },
+  {
+    "id": "clobd1wuq002qlyi8ohutrhlk",
+    "word": "our",
+    "meaning": "مال ما",
+    "created_at": "2023-10-29T11:01:14.259Z"
+  },
+  {
+    "id": "clobd3m48002vlyi847jr09az",
+    "word": "two",
+    "meaning": "عدد دو",
+    "created_at": "2023-10-29T11:02:33.656Z"
+  },
+  {
+    "id": "clobd7cso0035lyi8kw3pl9ik",
+    "word": "these",
+    "meaning": "اینها",
+    "created_at": "2023-10-29T11:05:28.201Z"
+  },
+  {
+    "id": "clobdbtxl003alyi8sy5jd7lj",
+    "word": "want",
+    "meaning": "خواستن",
+    "created_at": "2023-10-29T11:08:57.034Z"
+  },
+  {
+    "id": "clobdewwj003flyi8ip862k19",
+    "word": "way",
+    "meaning": "راه / روش",
+    "created_at": "2023-10-29T11:11:20.851Z"
+  },
+  {
+    "id": "clobdi6p3003klyi8mf3wb53w",
+    "word": "look",
+    "meaning": "نگاه کردن",
+    "created_at": "2023-10-29T11:13:53.511Z"
+  },
+  {
+    "id": "clobdkj0d003plyi8kz5m2z2z",
+    "word": "first",
+    "meaning": "اول / اولین",
+    "created_at": "2023-10-29T11:15:42.782Z"
+  },
+  {
+    "id": "clobdz9n4004tlyi87b0sg2h6",
+    "word": "here",
+    "meaning": "اینجا",
+    "created_at": "2023-10-29T11:27:10.481Z"
+  },
+  {
+    "id": "clobe1wkj004ylyi84ot7z305",
+    "word": "thing",
+    "meaning": "چیز",
+    "created_at": "2023-10-29T11:29:13.507Z"
+  },
+  {
+    "id": "clobe406k0053lyi8fyoakw7f",
+    "word": "give",
+    "meaning": "دادن",
+    "created_at": "2023-10-29T11:30:51.501Z"
+  },
+  {
+    "id": "clobe5m150058lyi8zlrbtv3x",
+    "word": "many",
+    "meaning": "بسیار / زیاد",
+    "created_at": "2023-10-29T11:32:06.473Z"
+  },
+  {
+    "id": "clobe73ea005dlyi8qtfo0hm5",
+    "word": "well",
+    "meaning": "خوب / به خوبی",
+    "created_at": "2023-10-29T11:33:15.635Z"
+  },
+  {
+    "id": "clobeabs0005ilyi8vkl00xhm",
+    "word": "only",
+    "meaning": "فقط / تنها",
+    "created_at": "2023-10-29T11:35:46.464Z"
+  },
+  {
+    "id": "clobecjej005nlyi8dz80hsmg",
+    "word": "those",
+    "meaning": "آنها / اشاره به دور",
+    "created_at": "2023-10-29T11:37:29.660Z"
+  },
+  {
+    "id": "clobeed4s005slyi8xyxx3n83",
+    "word": "tell",
+    "meaning": "گفتن",
+    "created_at": "2023-10-29T11:38:54.844Z"
+  },
+  {
+    "id": "clobefwdf005xlyi89dtz2zl0",
+    "word": "very",
+    "meaning": "بسیار / خیلی",
+    "created_at": "2023-10-29T11:40:06.436Z"
+  },
+  {
+    "id": "clobehcji0062lyi84vrg8uxi",
+    "word": "even",
+    "meaning": "حتی / عدد زوج",
+    "created_at": "2023-10-29T11:41:14.047Z"
+  },
+  {
+    "id": "clobekdce0067lyi8npbsplv2",
+    "word": "back",
+    "meaning": "پشت / عقب",
+    "created_at": "2023-10-29T11:43:35.055Z"
+  },
+  {
+    "id": "clobem58d006clyi86gyu8770",
+    "word": "any",
+    "meaning": "هر / هیچ",
+    "created_at": "2023-10-29T11:44:57.854Z"
+  },
+  {
+    "id": "clobf1mcl006hlyi8wmpd1v0x",
+    "word": "good",
+    "meaning": "خوب / خوبی",
+    "created_at": "2023-10-29T11:56:59.878Z"
+  },
+  {
+    "id": "clobf2oya006mlyi8ejigbodo",
+    "word": "woman",
+    "meaning": "زن / خانم",
+    "created_at": "2023-10-29T11:57:49.907Z"
+  },
+  {
+    "id": "clobf4ui3006rlyi8pap9c7br",
+    "word": "through",
+    "meaning": "از طریق / از میان",
+    "created_at": "2023-10-29T11:59:30.411Z"
+  },
+  {
+    "id": "clobf76u6006wlyi8qz02ennm",
+    "word": "us",
+    "meaning": "ما را / به ما",
+    "created_at": "2023-10-29T12:01:19.710Z"
+  },
+  {
+    "id": "clobf9fu80071lyi8vzgw5pk5",
+    "word": "life",
+    "meaning": "زندگی / عمر / جان",
+    "created_at": "2023-10-29T12:03:04.688Z"
+  },
+  {
+    "id": "clobfb1uk0076lyi8gh1pctzm",
+    "word": "child",
+    "meaning": "کودک / بچه",
+    "created_at": "2023-10-29T12:04:19.869Z"
+  },
+  {
+    "id": "clobfcuto007blyi8z54ks0du",
+    "word": "ward",
+    "meaning": "کار / کار کردن",
+    "created_at": "2023-10-29T12:05:44.077Z"
+  },
+  {
+    "id": "clobfebr2007glyi8oiay114z",
+    "word": "down",
+    "meaning": "پایین / غمگین",
+    "created_at": "2023-10-29T12:06:52.670Z"
+  },
+  {
+    "id": "clobfh32u007llyi88mhy1403",
+    "word": "may",
+    "meaning": "ممکن بودن / ماه می",
+    "created_at": "2023-10-29T12:09:01.399Z"
+  },
+  {
+    "id": "clobfilcj007qlyi85qlj1zhe",
+    "word": "after",
+    "meaning": "پس از / بعد از",
+    "created_at": "2023-10-29T12:10:11.731Z"
+  },
+  {
+    "id": "clobfkoyf007vlyi8y6mnxr0c",
+    "word": "should",
+    "meaning": "باید",
+    "created_at": "2023-10-29T12:11:49.719Z"
+  },
+  {
+    "id": "clobfly190080lyi86lzx07ui",
+    "word": "call",
+    "meaning": "صدا زدن / زنگ زدن / نامیدن",
+    "created_at": "2023-10-29T12:12:48.142Z"
+  },
+  {
+    "id": "clobfn0760085lyi8ihuvzjn0",
+    "word": "world",
+    "meaning": "جهان / دنیا",
+    "created_at": "2023-10-29T12:13:37.603Z"
+  },
+  {
+    "id": "clobfpks5008alyi8eihxajkv",
+    "word": "over",
+    "meaning": "روی / بالای / بیش از",
+    "created_at": "2023-10-29T12:15:37.589Z"
+  },
+  {
+    "id": "clobfvdzf008flyi8xp4u9wz6",
+    "word": "school",
+    "meaning": "مدرسه",
+    "created_at": "2023-10-29T12:20:08.715Z"
+  },
+  {
+    "id": "clobfx9f5008klyi829wa2rf2",
+    "word": "Still",
+    "meaning": "هنوز / ساکن",
+    "created_at": "2023-10-29T12:21:36.113Z"
+  },
+  {
+    "id": "clobfyke1008plyi8odh9f3q2",
+    "word": "try",
+    "meaning": "امتحان کردن / سعی کردن",
+    "created_at": "2023-10-29T12:22:36.986Z"
+  },
+  {
+    "id": "clobg0536008ulyi8z14izmyz",
+    "word": "last",
+    "meaning": "آخر / آخرین / گذشته",
+    "created_at": "2023-10-29T12:23:50.466Z"
+  },
+  {
+    "id": "clobg1ox2008zlyi8zflh4kmz",
+    "word": "ask",
+    "meaning": "پرسیدن / درخواست کردن",
+    "created_at": "2023-10-29T12:25:02.822Z"
+  },
+  {
+    "id": "clobg36gc0094lyi84tktvzsc",
+    "word": "need",
+    "meaning": "نیاز / نیاز داشتن",
+    "created_at": "2023-10-29T12:26:12.205Z"
+  },
+  {
+    "id": "clobg513h0099lyi8xj5dt46u",
+    "word": "too",
+    "meaning": "همینطور / همچنین / زیاد",
+    "created_at": "2023-10-29T12:27:38.573Z"
+  },
+  {
+    "id": "clobg6d4a009elyi8a1jt76wh",
+    "word": "feel",
+    "meaning": "احساس کردن / حس کردن",
+    "created_at": "2023-10-29T12:28:40.810Z"
+  },
+  {
+    "id": "clobg88rb009jlyi8m72qlodn",
+    "word": "three",
+    "meaning": "عدد سه",
+    "created_at": "2023-10-29T12:30:08.471Z"
+  },
+  {
+    "id": "clobg9q5a009olyi8srm1fre9",
+    "word": "state",
+    "meaning": "حالت / دولت / ایالت / وضعیت",
+    "created_at": "2023-10-29T12:31:17.663Z"
+  },
+  {
+    "id": "clobgbcoy009tlyi8gi8rg321",
+    "word": "never",
+    "meaning": "هرگز",
+    "created_at": "2023-10-29T12:32:33.538Z"
+  },
+  {
+    "id": "clobgchkg009ylyi8uq2eo018",
+    "word": "become",
+    "meaning": "شدن / مناسب بودن",
+    "created_at": "2023-10-29T12:33:26.512Z"
+  },
+  {
+    "id": "clobgdpi800a3lyi8ybxhaq0x",
+    "word": "between",
+    "meaning": "میان / در بین",
+    "created_at": "2023-10-29T12:34:23.456Z"
+  },
+  {
+    "id": "clobgftlt00a8lyi8cbuz8fyt",
+    "word": "high",
+    "meaning": "زیاد / بالا",
+    "created_at": "2023-10-29T12:36:02.081Z"
+  },
+  {
+    "id": "clobgihhj00adlyi8ol7muvea",
+    "word": "really",
+    "meaning": "واقعا",
+    "created_at": "2023-10-29T12:38:06.343Z"
+  },
+  {
+    "id": "clobgl07l00ailyi8n80fzvbx",
+    "word": "something",
+    "meaning": "چیزی",
+    "created_at": "2023-10-29T12:40:03.922Z"
+  },
+  {
+    "id": "clobgmi3w00anlyi8c8vmx0pk",
+    "word": "most",
+    "meaning": "بیشتر / اکثر",
+    "created_at": "2023-10-29T12:41:13.772Z"
+  },
+  {
+    "id": "clobgnq0k00aslyi8xtbz25cx",
+    "word": "another",
+    "meaning": "دیگر / دیگری / سایر",
+    "created_at": "2023-10-29T12:42:10.677Z"
+  },
+  {
+    "id": "clobgpfn100axlyi8h7p32aqe",
+    "word": "own",
+    "meaning": "خود / شخصی",
+    "created_at": "2023-10-29T12:43:30.541Z"
+  },
+  {
+    "id": "clobgqrhx00b2lyi8c7f29hx9",
+    "word": "leave",
+    "meaning": "مرخصی / ترک کردن / رها کردن",
+    "created_at": "2023-10-29T12:44:32.565Z"
+  },
+  {
+    "id": "clobgu5i700b7lyi8fq2ip9de",
+    "word": "put",
+    "meaning": "قرار دادن / گذاشتن",
+    "created_at": "2023-10-29T12:47:10.687Z"
+  },
+  {
+    "id": "clobgvu1j00bclyi8ya2yef8i",
+    "word": "old",
+    "meaning": "سن / پیر / قدیمی",
+    "created_at": "2023-10-29T12:48:29.144Z"
+  },
+  {
+    "id": "clobgx8hg00bhlyi8z5wllln5",
+    "word": "while",
+    "meaning": "در حین / در مدت",
+    "created_at": "2023-10-29T12:49:34.517Z"
+  },
+  {
+    "id": "clobgz16800bmlyi8zt9bhm1c",
+    "word": "mean",
+    "meaning": "معنی دادن / منظور داشتن",
+    "created_at": "2023-10-29T12:50:58.353Z"
+  },
+  {
+    "id": "clobh12qu00brlyi8b6d01htj",
+    "word": "keep",
+    "meaning": "نگاه داشتن / حفظ کردن چیزی",
+    "created_at": "2023-10-29T12:52:33.703Z"
+  },
+  {
+    "id": "clobh25ka00bwlyi8r0482xib",
+    "word": "student",
+    "meaning": "دانش آموز / دانشجو",
+    "created_at": "2023-10-29T12:53:24.010Z"
+  },
+  {
+    "id": "clobh3dqa00c1lyi8n3godv76",
+    "word": "why",
+    "meaning": "چرا / چرا که",
+    "created_at": "2023-10-29T12:54:21.251Z"
+  },
+  {
+    "id": "clobhv1870000lymvhhxxjv0f",
+    "word": "let",
+    "meaning": "اجازه دادن",
+    "created_at": "2023-10-29T13:15:51.416Z"
+  },
+  {
+    "id": "clobhwd9i0005lymvpkl58war",
+    "word": "great",
+    "meaning": "بزرگ / عظیم / عالی",
+    "created_at": "2023-10-29T13:16:53.671Z"
+  },
+  {
+    "id": "clobhxzam000alymvxdzix73a",
+    "word": "same",
+    "meaning": "یکسان / مثل هم",
+    "created_at": "2023-10-29T13:18:08.878Z"
+  },
+  {
+    "id": "clobhzie0000flymvitye95lz",
+    "word": "big",
+    "meaning": "بزرگ",
+    "created_at": "2023-10-29T13:19:20.280Z"
+  },
+  {
+    "id": "clobi0uy6000klymvab0kib1i",
+    "word": "group",
+    "meaning": "گروه",
+    "created_at": "2023-10-29T13:20:23.214Z"
+  },
+  {
+    "id": "clobi8htr000plymvjz9rpeth",
+    "word": "begin",
+    "meaning": "شروع شدن / شروع کردن",
+    "created_at": "2023-10-29T13:26:19.455Z"
+  },
+  {
+    "id": "clo6rjb220002lyi6gan1si63",
+    "word": "the",
+    "meaning": "حرف تعریف",
+    "created_at": "2023-10-26T05:47:49.562Z"
+  },
+  {
+    "id": "cloa5vbjd0011ly2sinj5t1dn",
+    "word": "for",
+    "meaning": "برای / به منظوره",
+    "created_at": "2023-10-28T14:52:23.210Z"
+  },
+  {
+    "id": "cloazxgr60005lyok3apwfni2",
+    "word": "can",
+    "meaning": "توانستن / قادر بودن",
+    "created_at": "2023-10-29T04:53:51.762Z"
+  },
+  {
+    "id": "clob9s2p3000xlyi8ypmromrp",
+    "word": "just",
+    "meaning": "فقط / تنها / به تازگی",
+    "created_at": "2023-10-29T09:29:36.424Z"
+  },
+  {
+    "id": "clocdndim0000lyj1nuzn5322",
+    "word": "seem",
+    "meaning": "به نظر رسیدن / به نظر آمدن",
+    "created_at": "2023-10-30T04:05:41.806Z"
+  },
+  {
+    "id": "clocdp1ni0005lyj1t70rkub5",
+    "word": "country",
+    "meaning": "کشور / خارج از شهر",
+    "created_at": "2023-10-30T04:06:59.743Z"
+  },
+  {
+    "id": "clocdrpzv000alyj1iod7bufz",
+    "word": "help",
+    "meaning": "کمک / کمک کردن",
+    "created_at": "2023-10-30T04:09:04.604Z"
+  },
+  {
+    "id": "clocdtiji000flyj11xyfbhmb",
+    "word": "talk",
+    "meaning": "صحبت کردن / حرف زدن",
+    "created_at": "2023-10-30T04:10:28.255Z"
+  },
+  {
+    "id": "clocduz5r000klyj1sya7r786",
+    "word": "where",
+    "meaning": "کجا / جایی که",
+    "created_at": "2023-10-30T04:11:36.448Z"
+  },
+  {
+    "id": "clocdwffr000plyj1opffg2ag",
+    "word": "turn",
+    "meaning": "نوبت / پیچیدن / دور زدن",
+    "created_at": "2023-10-30T04:12:44.199Z"
+  },
+  {
+    "id": "clocdyvf3000ulyj1k3nn00y8",
+    "word": "problem",
+    "meaning": "مشکل / مسئله",
+    "created_at": "2023-10-30T04:14:38.224Z"
+  },
+  {
+    "id": "cloce1jpt000zlyj18m71fq7i",
+    "word": "every",
+    "meaning": "هر",
+    "created_at": "2023-10-30T04:16:43.025Z"
+  },
+  {
+    "id": "cloce38bb0014lyj16b3ysg2e",
+    "word": "start",
+    "meaning": "شروع / شروع کردن",
+    "created_at": "2023-10-30T04:18:01.559Z"
+  },
+  {
+    "id": "cloce547c0019lyj1cewu6bvy",
+    "word": "hand",
+    "meaning": "دست",
+    "created_at": "2023-10-30T04:19:29.544Z"
+  },
+  {
+    "id": "cloce6k0v001elyj1lq00a7ql",
+    "word": "might",
+    "meaning": "ممکن بودن / توانایی",
+    "created_at": "2023-10-30T04:20:36.703Z"
+  },
+  {
+    "id": "cloce90om001jlyj12xkey8h1",
+    "word": "American",
+    "meaning": "آمریکایی",
+    "created_at": "2023-10-30T04:22:31.607Z"
+  },
+  {
+    "id": "cloceaw9j001olyj1scy3chsv",
+    "word": "show",
+    "meaning": "نشان دادن / نمایش",
+    "created_at": "2023-10-30T04:23:59.192Z"
+  },
+  {
+    "id": "clocec5jr001tlyj1a4lrmoie",
+    "word": "part",
+    "meaning": "بخش / قسمت / جز",
+    "created_at": "2023-10-30T04:24:57.880Z"
+  },
+  {
+    "id": "clocg12xz001ylyj1wo3kt89h",
+    "word": "against",
+    "meaning": "در برابر / در مقابل / مخالف",
+    "created_at": "2023-10-30T05:12:20.519Z"
+  },
+  {
+    "id": "clocg3gyu0023lyj1z3x0v5ql",
+    "word": "place",
+    "meaning": "محل / مکان / در محل قرار دادن",
+    "created_at": "2023-10-30T05:14:12.006Z"
+  },
+  {
+    "id": "clocg5s1g0028lyj1457fipng",
+    "word": "such",
+    "meaning": "چنین / این چنین",
+    "created_at": "2023-10-30T05:15:59.668Z"
+  },
+  {
+    "id": "clocg7adg002dlyj1yzpopwxb",
+    "word": "again",
+    "meaning": "دوباره / مجدد",
+    "created_at": "2023-10-30T05:17:10.084Z"
+  },
+  {
+    "id": "clodtn8q30004lyfixzifzaxl",
+    "word": "few",
+    "meaning": "کمی / اندک / کم",
+    "created_at": "2023-10-31T04:21:15.627Z"
+  },
+  {
+    "id": "clodtorws0009lyfi4uh2nm9c",
+    "word": "case",
+    "meaning": "مورد / جعبه / پوسته",
+    "created_at": "2023-10-31T04:22:27.149Z"
+  },
+  {
+    "id": "clodtq1wd000elyfit6ppd60j",
+    "word": "week",
+    "meaning": "هفته",
+    "created_at": "2023-10-31T04:23:26.749Z"
+  },
+  {
+    "id": "clodts23r000jlyfiiw7iwtpm",
+    "word": "company",
+    "meaning": "شرکت",
+    "created_at": "2023-10-31T04:25:00.328Z"
+  },
+  {
+    "id": "clodtujfy000olyfibaimauxi",
+    "word": "system",
+    "meaning": "سیستم",
+    "created_at": "2023-10-31T04:26:56.111Z"
+  },
+  {
+    "id": "clodtwryp000tlyfij8qjn2h1",
+    "word": "each",
+    "meaning": "هر / هر یک",
+    "created_at": "2023-10-31T04:28:40.466Z"
+  },
+  {
+    "id": "clodtyn7t000ylyfipj40e9il",
+    "word": "right",
+    "meaning": "صحیح / درست / راست",
+    "created_at": "2023-10-31T04:30:07.625Z"
+  },
+  {
+    "id": "clodu4aeo0015lyfi370tvzj5",
+    "word": "program",
+    "meaning": "برنامه / دستور کار",
+    "created_at": "2023-10-31T04:34:30.961Z"
+  },
+  {
+    "id": "clodu6ntz001alyfix7r8erpg",
+    "word": "hear",
+    "meaning": "شنیدن",
+    "created_at": "2023-10-31T04:36:21.672Z"
+  },
+  {
+    "id": "clodu8323001flyfi1q4md6mq",
+    "word": "question",
+    "meaning": "سوال",
+    "created_at": "2023-10-31T04:37:28.060Z"
+  },
+  {
+    "id": "clodu974b001klyfigo5e354u",
+    "word": "during",
+    "meaning": "در طی / در طول",
+    "created_at": "2023-10-31T04:38:19.979Z"
+  },
+  {
+    "id": "cloducr5h001plyfiwmq2dnj7",
+    "word": "play",
+    "meaning": "بازی / بازی کردن",
+    "created_at": "2023-10-31T04:41:05.909Z"
+  },
+  {
+    "id": "clodue15l001ulyfijpb55sgy",
+    "word": "government",
+    "meaning": "دولت / حکومت",
+    "created_at": "2023-10-31T04:42:05.529Z"
+  },
+  {
+    "id": "clodufo1i001zlyfilhxydq0d",
+    "word": "run",
+    "meaning": "دویدن / اجرا کردن",
+    "created_at": "2023-10-31T04:43:21.846Z"
+  },
+  {
+    "id": "clodukcgo0024lyfiymjrkvke",
+    "word": "small",
+    "meaning": "کوچک / اندک / کم",
+    "created_at": "2023-10-31T04:47:00.120Z"
+  },
+  {
+    "id": "clodumesp0029lyfigog6cg9h",
+    "word": "number",
+    "meaning": "شماره / عدد / شمردن",
+    "created_at": "2023-10-31T04:48:36.458Z"
+  },
+  {
+    "id": "clodunsxu002elyfihzxfrepn",
+    "word": "always",
+    "meaning": "همیشه / همواره",
+    "created_at": "2023-10-31T04:49:41.443Z"
+  },
+  {
+    "id": "cloduptks002jlyfi2iqll453",
+    "word": "move",
+    "meaning": "حرکت کردن / جابجا شدن",
+    "created_at": "2023-10-31T04:51:15.581Z"
+  },
+  {
+    "id": "clodurl77002olyfibbswbxgv",
+    "word": "night",
+    "meaning": "شب",
+    "created_at": "2023-10-31T04:52:38.035Z"
+  },
+  {
+    "id": "clodut9ur002tlyfiho61tyua",
+    "word": "live",
+    "meaning": "زندگی کردن",
+    "created_at": "2023-10-31T04:53:56.643Z"
+  },
+  {
+    "id": "cloduvhx1002ylyfi9am7tvsg",
+    "word": "point",
+    "meaning": "نقطه / محل / نکته",
+    "created_at": "2023-10-31T04:55:40.405Z"
+  },
+  {
+    "id": "cloduxccd0033lyfi724b6pkt",
+    "word": "believe",
+    "meaning": "باور داشتن / اعتقاد داشتن",
+    "created_at": "2023-10-31T04:57:06.493Z"
+  },
+  {
+    "id": "cloduzd7q0038lyfilvmruzg2",
+    "word": "hold",
+    "meaning": "نگه داشتن",
+    "created_at": "2023-10-31T04:58:40.934Z"
+  },
+  {
+    "id": "clodv1kqt003dlyfibmd0z2hz",
+    "word": "today",
+    "meaning": "امروز",
+    "created_at": "2023-10-31T05:00:24.005Z"
+  },
+  {
+    "id": "clodv2jkq003ilyfi9xkcajvk",
+    "word": "large",
+    "meaning": "بزرگ / وسیع",
+    "created_at": "2023-10-31T05:01:09.147Z"
+  },
+  {
+    "id": "clodv3gre003nlyfi1p6sc92x",
+    "word": "million",
+    "meaning": "میلیون",
+    "created_at": "2023-10-31T05:01:52.154Z"
+  },
+  {
+    "id": "clodv7bqz003slyfiiezt3wle",
+    "word": "must",
+    "meaning": "باید",
+    "created_at": "2023-10-31T05:04:52.283Z"
+  },
+  {
+    "id": "clodv8akg003xlyfietsn2k1w",
+    "word": "home",
+    "meaning": "خانه",
+    "created_at": "2023-10-31T05:05:37.409Z"
+  },
+  {
+    "id": "clodv9vt70042lyfismj93aey",
+    "word": "under",
+    "meaning": "زیر / تحت",
+    "created_at": "2023-10-31T05:06:51.596Z"
+  },
+  {
+    "id": "clodvd6oz0047lyfijuhfqdj2",
+    "word": "water",
+    "meaning": "آب",
+    "created_at": "2023-10-31T05:09:25.667Z"
+  },
+  {
+    "id": "clodvfcjp004clyfig0yfns9n",
+    "word": "room",
+    "meaning": "اتاق / فضا",
+    "created_at": "2023-10-31T05:11:06.565Z"
+  },
+  {
+    "id": "clofe7pjl0000ly7z6l1sizxa",
+    "word": "write",
+    "meaning": "نوشتن",
+    "created_at": "2023-11-01T06:44:49.041Z"
+  },
+  {
+    "id": "clofe8web0005ly7z486djwle",
+    "word": "mother",
+    "meaning": "مادر",
+    "created_at": "2023-11-01T06:45:44.579Z"
+  },
+  {
+    "id": "clofe9yxk000aly7zvrg8ya6z",
+    "word": "area",
+    "meaning": "ناحیه / منطقه",
+    "created_at": "2023-11-01T06:46:34.520Z"
+  },
+  {
+    "id": "clofebgmn000fly7zbw24w897",
+    "word": "national",
+    "meaning": "ملی",
+    "created_at": "2023-11-01T06:47:44.112Z"
+  },
+  {
+    "id": "clofed98s000kly7zxcjb6jrw",
+    "word": "money",
+    "meaning": "پول",
+    "created_at": "2023-11-01T06:49:07.852Z"
+  },
+  {
+    "id": "clofeff9p000ply7zbnt5ft1z",
+    "word": "story",
+    "meaning": "داستان / ماجرا",
+    "created_at": "2023-11-01T06:50:48.974Z"
+  },
+  {
+    "id": "clofegq8v000uly7zblesxi7n",
+    "word": "young",
+    "meaning": "جوان",
+    "created_at": "2023-11-01T06:51:49.856Z"
+  },
+  {
+    "id": "clofeikpq000zly7z50szwxoo",
+    "word": "fact",
+    "meaning": "حقیقت / واقعیت",
+    "created_at": "2023-11-01T06:53:15.998Z"
+  },
+  {
+    "id": "clofel4hh0014ly7z98d3zc16",
+    "word": "month",
+    "meaning": "ماه",
+    "created_at": "2023-11-01T06:55:14.933Z"
+  },
+  {
+    "id": "clofempbt0019ly7z61yqdsg5",
+    "word": "different",
+    "meaning": "مختلف / متفاوت",
+    "created_at": "2023-11-01T06:56:28.602Z"
+  },
+  {
+    "id": "clofep05b001ely7zj7n0samz",
+    "word": "lot",
+    "meaning": "خیلی / بخش زیاد / قطعه",
+    "created_at": "2023-11-01T06:58:15.935Z"
+  },
+  {
+    "id": "clofer0xj001jly7zwkb1krvx",
+    "word": "study",
+    "meaning": "درس خواندن / مطالعه کردن",
+    "created_at": "2023-11-01T06:59:50.263Z"
+  },
+  {
+    "id": "clofesj9b001oly7zu0emq8fi",
+    "word": "book",
+    "meaning": "کتاب / رزرو کردن",
+    "created_at": "2023-11-01T07:01:00.671Z"
+  },
+  {
+    "id": "clofeuk6c001tly7zv5511eaz",
+    "word": "eye",
+    "meaning": "چشم",
+    "created_at": "2023-11-01T07:02:35.172Z"
+  },
+  {
+    "id": "clofevou1001yly7z8n6jb982",
+    "word": "job",
+    "meaning": "کار / شغل",
+    "created_at": "2023-11-01T07:03:27.865Z"
+  },
+  {
+    "id": "clofexn530023ly7zog9afoic",
+    "word": "word",
+    "meaning": "کلمه / حرف",
+    "created_at": "2023-11-01T07:04:58.983Z"
+  },
+  {
+    "id": "clofezqll0028ly7z1l0n38wh",
+    "word": "though",
+    "meaning": "اگرچه / به هر حال",
+    "created_at": "2023-11-01T07:06:36.777Z"
+  },
+  {
+    "id": "cloff2cop002dly7zvjt7b6r9",
+    "word": "business",
+    "meaning": "تجارت / بیزینس",
+    "created_at": "2023-11-01T07:08:38.714Z"
+  },
+  {
+    "id": "cloff3tzd002ily7zw1z7bz03",
+    "word": "issue",
+    "meaning": "موضوع / مسئله / مشکل",
+    "created_at": "2023-11-01T07:09:47.786Z"
+  },
+  {
+    "id": "cloff5i55002nly7zsw2473ug",
+    "word": "side",
+    "meaning": "سمت / طرف",
+    "created_at": "2023-11-01T07:11:05.754Z"
+  },
+  {
+    "id": "cloffhxl2002sly7zi89qbgou",
+    "word": "kind",
+    "meaning": "نوع / مهربان",
+    "created_at": "2023-11-01T07:20:45.638Z"
+  },
+  {
+    "id": "cloffjfx9002xly7z543t4z7x",
+    "word": "four",
+    "meaning": "عدد ۴",
+    "created_at": "2023-11-01T07:21:56.061Z"
+  },
+  {
+    "id": "cloffkyeq0032ly7zrvp1c5ap",
+    "word": "head",
+    "meaning": "سر / جلو",
+    "created_at": "2023-11-01T07:23:06.674Z"
+  },
+  {
+    "id": "cloffngg70037ly7z3da1p2bt",
+    "word": "far",
+    "meaning": "دور",
+    "created_at": "2023-11-01T07:25:03.368Z"
+  },
+  {
+    "id": "cloffp2dk003cly7z2plw6nvd",
+    "word": "black",
+    "meaning": "سیاه / مشکی",
+    "created_at": "2023-11-01T07:26:18.440Z"
+  },
+  {
+    "id": "cloffqc7t003hly7zssx5hjrs",
+    "word": "long",
+    "meaning": "طولانی / طول",
+    "created_at": "2023-11-01T07:27:17.850Z"
+  },
+  {
+    "id": "cloffrx5r003mly7zv11wckcx",
+    "word": "both",
+    "meaning": "هر دو",
+    "created_at": "2023-11-01T07:28:31.647Z"
+  },
+  {
+    "id": "cloffu5hb003rly7zfr6lv42x",
+    "word": "little",
+    "meaning": "کوچک / کم",
+    "created_at": "2023-11-01T07:30:15.743Z"
+  },
+  {
+    "id": "cloffvqyp003wly7z5j4udw1h",
+    "word": "house",
+    "meaning": "خانه / ساختمان",
+    "created_at": "2023-11-01T07:31:30.241Z"
+  },
+  {
+    "id": "cloffxwz60041ly7zgg6qg38n",
+    "word": "since",
+    "meaning": "از آن موقع / از جایی که",
+    "created_at": "2023-11-01T07:33:11.346Z"
+  },
+  {
+    "id": "cloffzx0r0046ly7zt9zr49a4",
+    "word": "provide",
+    "meaning": "تهیه کردن / فراهم کردن",
+    "created_at": "2023-11-01T07:34:44.715Z"
+  },
+  {
+    "id": "clofg1trp004bly7zlkadd484",
+    "word": "service",
+    "meaning": "سرویس / سرویس کردن",
+    "created_at": "2023-11-01T07:36:13.814Z"
+  },
+  {
+    "id": "clofspldf004oly7zvxwe699x",
+    "word": "around",
+    "meaning": "دور و بر / در اطراف / در حدود",
+    "created_at": "2023-11-01T13:30:38.067Z"
+  },
+  {
+    "id": "clofsr8s7004tly7ze3a50b01",
+    "word": "friend",
+    "meaning": "دوست",
+    "created_at": "2023-11-01T13:31:55.063Z"
+  },
+  {
+    "id": "clofsvdf0004yly7zcohn62s1",
+    "word": "important",
+    "meaning": "مهم",
+    "created_at": "2023-11-01T13:35:07.693Z"
+  },
+  {
+    "id": "clofswgnj0053ly7zqb5uh9hq",
+    "word": "father",
+    "meaning": "پدر",
+    "created_at": "2023-11-01T13:35:58.543Z"
+  },
+  {
+    "id": "cloft79vx0058ly7zwctd969o",
+    "word": "sit",
+    "meaning": "نشستن",
+    "created_at": "2023-11-01T13:44:22.989Z"
+  },
+  {
+    "id": "cloft8y2g005dly7zpi9u760e",
+    "word": "away",
+    "meaning": "دور / دور از",
+    "created_at": "2023-11-01T13:45:40.985Z"
+  },
+  {
+    "id": "cloftak0p005ily7zhovc3xlo",
+    "word": "until",
+    "meaning": "تا / تا وقتی که",
+    "created_at": "2023-11-01T13:46:56.090Z"
+  },
+  {
+    "id": "cloftc00q005nly7zbgui8pvt",
+    "word": "power",
+    "meaning": "قدرت / نیرو / توان",
+    "created_at": "2023-11-01T13:48:03.482Z"
+  },
+  {
+    "id": "cloftgap9005sly7zjacbjzke",
+    "word": "hour",
+    "meaning": "ساعت",
+    "created_at": "2023-11-01T13:51:23.950Z"
+  },
+  {
+    "id": "cloftnp0q005xly7zks69f8sw",
+    "word": "game",
+    "meaning": "بازی",
+    "created_at": "2023-11-01T13:57:09.099Z"
+  },
+  {
+    "id": "cloftpb470062ly7zzf6wq4jy",
+    "word": "often",
+    "meaning": "اغلب / غالباً / بیشتر وقت‌ها",
+    "created_at": "2023-11-01T13:58:24.391Z"
+  },
+  {
+    "id": "cloftr8670067ly7z11533dkj",
+    "word": "yet",
+    "meaning": "با وجود اینکه / هنوز / با اینکه",
+    "created_at": "2023-11-01T13:59:53.887Z"
+  },
+  {
+    "id": "cloftv48q006cly7ze9c34zb8",
+    "word": "line",
+    "meaning": "خط / صف",
+    "created_at": "2023-11-01T14:02:55.418Z"
+  },
+  {
+    "id": "cloftxt8t006hly7zyoik5o2p",
+    "word": "political",
+    "meaning": "سیاسی",
+    "created_at": "2023-11-01T14:05:01.134Z"
+  },
+  {
+    "id": "clofu1avn006mly7z19zxkzku",
+    "word": "end",
+    "meaning": "پایان / انتها / پایان دادن",
+    "created_at": "2023-11-01T14:07:43.956Z"
+  },
+  {
+    "id": "clofu7cxq006rly7zlsqqavpq",
+    "word": "among",
+    "meaning": "در میان / در بین",
+    "created_at": "2023-11-01T14:12:26.559Z"
+  },
+  {
+    "id": "clofub7f4006wly7zefy1bbe6",
+    "word": "ever",
+    "meaning": "همیشه / تا به حال",
+    "created_at": "2023-11-01T14:15:26.032Z"
+  },
+  {
+    "id": "clofucij00071ly7zq2b7fjq3",
+    "word": "stand",
+    "meaning": "ایستادن",
+    "created_at": "2023-11-01T14:16:27.084Z"
+  },
+  {
+    "id": "clofue4h80076ly7zr9rq9xq3",
+    "word": "bad",
+    "meaning": "بد / اشتباه",
+    "created_at": "2023-11-01T14:17:42.188Z"
+  },
+  {
+    "id": "clofug35v007bly7zc80l0p86",
+    "word": "lose",
+    "meaning": "باختن / از دست دادن",
+    "created_at": "2023-11-01T14:19:13.795Z"
+  },
+  {
+    "id": "clofun459007gly7zc72toewh",
+    "word": "however",
+    "meaning": "به هر حال / به هر صورت",
+    "created_at": "2023-11-01T14:24:41.661Z"
+  },
+  {
+    "id": "clofuqlim007lly7zamut8j6w",
+    "word": "member",
+    "meaning": "عضو",
+    "created_at": "2023-11-01T14:27:24.142Z"
+  },
+  {
+    "id": "clofurzpt007qly7zc6ddz13b",
+    "word": "pay",
+    "meaning": "پرداخت کردن",
+    "created_at": "2023-11-01T14:28:29.202Z"
+  },
+  {
+    "id": "clofuucb6007vly7zlpp4dvb0",
+    "word": "low",
+    "meaning": "قانون",
+    "created_at": "2023-11-01T14:30:18.834Z"
+  },
+  {
+    "id": "clofuvxs90080ly7zjytdauhn",
+    "word": "meet",
+    "meaning": "ملاقات کردن / دیدار کردن",
+    "created_at": "2023-11-01T14:31:33.322Z"
+  },
+  {
+    "id": "clofux9si0085ly7z88zkx6hs",
+    "word": "car",
+    "meaning": "ماشین / خودرو",
+    "created_at": "2023-11-01T14:32:35.539Z"
+  },
+  {
+    "id": "clofuyl56008aly7z3xsihz38",
+    "word": "city",
+    "meaning": "شهر",
+    "created_at": "2023-11-01T14:33:36.906Z"
+  },
+  {
+    "id": "clofv050m008fly7zvw16joo1",
+    "word": "almost",
+    "meaning": "تقریبا",
+    "created_at": "2023-11-01T14:34:49.319Z"
+  },
+  {
+    "id": "clofv102v008kly7zrrycgld3",
+    "word": "include",
+    "meaning": "شامل بودن / عبارت بودن از",
+    "created_at": "2023-11-01T14:35:29.575Z"
+  },
+  {
+    "id": "clofv2mp3008ply7z6iffiuy7",
+    "word": "continue",
+    "meaning": "ادامه دادن",
+    "created_at": "2023-11-01T14:36:45.543Z"
+  },
+  {
+    "id": "clogp82eh0000lyivzz0sa6ym",
+    "word": "set",
+    "meaning": "مجموعه / تنظیم کردن / چیدن",
+    "created_at": "2023-11-02T04:40:47.658Z"
+  },
+  {
+    "id": "clogpacw90005lyiv55aoh9o2",
+    "word": "later",
+    "meaning": "بعداً / بعد / سپس",
+    "created_at": "2023-11-02T04:42:34.570Z"
+  },
+  {
+    "id": "clogpbzop000alyivm7c79kgr",
+    "word": "community",
+    "meaning": "انجمن / جامعه",
+    "created_at": "2023-11-02T04:43:50.761Z"
+  },
+  {
+    "id": "clogpe1vt000flyivcl58lqdk",
+    "word": "name",
+    "meaning": "اسم / نام / نامیدن",
+    "created_at": "2023-11-02T04:45:26.921Z"
+  },
+  {
+    "id": "clogpffsx000klyivjq4l8gv4",
+    "word": "five",
+    "meaning": "عدد ۵",
+    "created_at": "2023-11-02T04:46:31.618Z"
+  },
+  {
+    "id": "clogpgv5s000plyivwma72shv",
+    "word": "once",
+    "meaning": "یک بار / یک وقتی",
+    "created_at": "2023-11-02T04:47:38.176Z"
+  },
+  {
+    "id": "clogpi1vp000ulyiv5os4k9ri",
+    "word": "White",
+    "meaning": "سفید",
+    "created_at": "2023-11-02T04:48:33.541Z"
+  },
+  {
+    "id": "clogpkaa0000zlyivrn9avkl9",
+    "word": "least",
+    "meaning": "کمترین",
+    "created_at": "2023-11-02T04:50:17.737Z"
+  },
+  {
+    "id": "clogpmntb0014lyivqpy38nh0",
+    "word": "president",
+    "meaning": "رئیس جمهور / رئیس",
+    "created_at": "2023-11-02T04:52:08.591Z"
+  },
+  {
+    "id": "clogpns9z0019lyiv1qatweyk",
+    "word": "learn",
+    "meaning": "یاد گرفتن / آموختن",
+    "created_at": "2023-11-02T04:53:01.031Z"
+  },
+  {
+    "id": "cloh3aqd2001elyivxiw7rnys",
+    "word": "real",
+    "meaning": "واقعی / اصل",
+    "created_at": "2023-11-02T11:14:46.646Z"
+  },
+  {
+    "id": "cloh3cspg001jlyivklven5gr",
+    "word": "change",
+    "meaning": "تغییر / تغییر دادن",
+    "created_at": "2023-11-02T11:16:22.997Z"
+  },
+  {
+    "id": "cloh3dvjn001olyiv8kt5svx6",
+    "word": "team",
+    "meaning": "تیم",
+    "created_at": "2023-11-02T11:17:13.331Z"
+  },
+  {
+    "id": "cloh3fi80001tlyivtjkwx6pe",
+    "word": "minute",
+    "meaning": "دقیقه",
+    "created_at": "2023-11-02T11:18:29.376Z"
+  },
+  {
+    "id": "cloh3lwde001ylyivugqwh0dv",
+    "word": "best",
+    "meaning": "بهترین",
+    "created_at": "2023-11-02T11:23:27.650Z"
+  },
+  {
+    "id": "cloh3nwdc0023lyiv8bahv9em",
+    "word": "several",
+    "meaning": "چند / چندین",
+    "created_at": "2023-11-02T11:25:00.960Z"
+  },
+  {
+    "id": "cloh3qcc80028lyivagmgdahf",
+    "word": "idea",
+    "meaning": "فکر / ایده / دیدگاه",
+    "created_at": "2023-11-02T11:26:54.969Z"
+  },
+  {
+    "id": "cloh3u63u002dlyivo5nmki0k",
+    "word": "body",
+    "meaning": "بدن / بدنه",
+    "created_at": "2023-11-02T11:29:53.514Z"
+  },
+  {
+    "id": "cloh3xbjf002ilyiv3h7ik1eb",
+    "word": "kid",
+    "meaning": "بچه / کودک / شوخی کردن",
+    "created_at": "2023-11-02T11:32:20.523Z"
+  },
+  {
+    "id": "cloh3y97y002nlyivuja5v03y",
+    "word": "information",
+    "meaning": "اطلاعات",
+    "created_at": "2023-11-02T11:33:04.174Z"
+  },
+  {
+    "id": "cloh40p5w002slyiv1c7h7eig",
+    "word": "nothing",
+    "meaning": "هیچ / هیچ چیز",
+    "created_at": "2023-11-02T11:34:58.148Z"
+  },
+  {
+    "id": "cloh427kk002xlyivppeazoa4",
+    "word": "ago",
+    "meaning": "پیش / قبل",
+    "created_at": "2023-11-02T11:36:08.661Z"
+  },
+  {
+    "id": "cloh43oo50032lyiv21z1kjbz",
+    "word": "lead",
+    "meaning": "رهبری کردن / منجر شدن",
+    "created_at": "2023-11-02T11:37:17.477Z"
+  },
+  {
+    "id": "cloh45sia0037lyivcx10qgtj",
+    "word": "social",
+    "meaning": "اجتماعی",
+    "created_at": "2023-11-02T11:38:55.762Z"
+  },
+  {
+    "id": "cloh476bh003clyivz99xy6gk",
+    "word": "understand",
+    "meaning": "فهمیدن / متوجه شدن / درک کردن",
+    "created_at": "2023-11-02T11:40:00.318Z"
+  },
+  {
+    "id": "cloh4c37z003hlyivlwoapde7",
+    "word": "whether",
+    "meaning": "چه / خواه / آیا",
+    "created_at": "2023-11-02T11:43:49.584Z"
+  },
+  {
+    "id": "cloh4ejaw003mlyivo1z7ba64",
+    "word": "watch",
+    "meaning": "تماشا کردن / ساعت / مراقب بودن",
+    "created_at": "2023-11-02T11:45:43.737Z"
+  },
+  {
+    "id": "cloh4gfih003rlyiv8lxukg2i",
+    "word": "together",
+    "meaning": "با هم / با همدیگر",
+    "created_at": "2023-11-02T11:47:12.138Z"
+  },
+  {
+    "id": "cloh4hkde003wlyiv79mga7fh",
+    "word": "follow",
+    "meaning": "دنبال کردن",
+    "created_at": "2023-11-02T11:48:05.090Z"
+  },
+  {
+    "id": "cloh4ikg90041lyivo2u96vri",
+    "word": "parents",
+    "meaning": "والدین / پدر و مادر",
+    "created_at": "2023-11-02T11:48:51.849Z"
+  },
+  {
+    "id": "cloh4jzki0046lyivjwrcjcai",
+    "word": "stop",
+    "meaning": "توقف کردن / متوقف کردن",
+    "created_at": "2023-11-02T11:49:58.098Z"
+  },
+  {
+    "id": "cloh4ldde004blyivlp2sc77v",
+    "word": "face",
+    "meaning": "صورت / چهره / مواجه شدن",
+    "created_at": "2023-11-02T11:51:02.642Z"
+  },
+  {
+    "id": "cloh4mkfp004glyivnb7x2bzy",
+    "word": "anything",
+    "meaning": "هر چیزی / هیچ چیزی",
+    "created_at": "2023-11-02T11:51:58.454Z"
+  },
+  {
+    "id": "cloh4nwiy004llyivhgjej9nj",
+    "word": "create",
+    "meaning": "ساختن / ایجاد کردن / خلق کردن",
+    "created_at": "2023-11-02T11:53:00.779Z"
+  },
+  {
+    "id": "cloh4p2kq004qlyiv7slit7n0",
+    "word": "public",
+    "meaning": "عمومی",
+    "created_at": "2023-11-02T11:53:55.275Z"
+  },
+  {
+    "id": "cloh4qmce004vlyivrjcxrot3",
+    "word": "already",
+    "meaning": "در حال حاضر / تاکنون / هم اکنون",
+    "created_at": "2023-11-02T11:55:07.550Z"
+  },
+  {
+    "id": "cloh4s9nj0050lyivxd0j9vb3",
+    "word": "speak",
+    "meaning": "صحبت کردن",
+    "created_at": "2023-11-02T11:56:24.415Z"
+  },
+  {
+    "id": "cloh4u7d20055lyivy236vati",
+    "word": "others",
+    "meaning": "دیگران",
+    "created_at": "2023-11-02T11:57:54.758Z"
+  },
+  {
+    "id": "cloh5g4jo005alyivd6ja5fnh",
+    "word": "read",
+    "meaning": "خواندن",
+    "created_at": "2023-11-02T12:14:57.541Z"
+  },
+  {
+    "id": "cloh5i220005flyivq3d74ayk",
+    "word": "level",
+    "meaning": "سطح / پایه",
+    "created_at": "2023-11-02T12:16:27.624Z"
+  },
+  {
+    "id": "cloh5k48q005klyiv9z985qnn",
+    "word": "allow",
+    "meaning": "اجازه دادن",
+    "created_at": "2023-11-02T12:18:03.771Z"
+  },
+  {
+    "id": "cloh5ld71005plyivupmtms2h",
+    "word": "add",
+    "meaning": "اضافه کردن",
+    "created_at": "2023-11-02T12:19:02.029Z"
+  },
+  {
+    "id": "cloh5njtm005ulyiv8wgsz8pt",
+    "word": "office",
+    "meaning": "دفتر / اداره",
+    "created_at": "2023-11-02T12:20:43.931Z"
+  },
+  {
+    "id": "cloh5pcc3005zlyive76ahf7a",
+    "word": "spend",
+    "meaning": "صرف کردن / خرج کردن / گذراندن",
+    "created_at": "2023-11-02T12:22:07.540Z"
+  },
+  {
+    "id": "cloh5qebw0064lyiv0gykoa9s",
+    "word": "door",
+    "meaning": "در / درب",
+    "created_at": "2023-11-02T12:22:56.780Z"
+  },
+  {
+    "id": "cloh5sdrt0069lyivly6gieeb",
+    "word": "health",
+    "meaning": "سلامت / سلامتی",
+    "created_at": "2023-11-02T12:24:29.369Z"
+  },
+  {
+    "id": "cloh5td5p006elyiv3gz15nz8",
+    "word": "person",
+    "meaning": "شخص / فرد",
+    "created_at": "2023-11-02T12:25:15.230Z"
+  },
+  {
+    "id": "cloh5ufkv006jlyiv6jl91s81",
+    "word": "art",
+    "meaning": "هنر",
+    "created_at": "2023-11-02T12:26:05.023Z"
+  },
+  {
+    "id": "cloh5vxtg006olyiv7k6w2xmk",
+    "word": "sure",
+    "meaning": "مطمئن بودن",
+    "created_at": "2023-11-02T12:27:15.316Z"
+  },
+  {
+    "id": "cloh5x3nj006tlyivvymsblew",
+    "word": "war",
+    "meaning": "جنگ",
+    "created_at": "2023-11-02T12:28:09.536Z"
+  },
+  {
+    "id": "clokcv2h30000lysmat6s89af",
+    "word": "history",
+    "meaning": "تاریخ / تاریخچه / سابقه",
+    "created_at": "2023-11-04T18:05:50.535Z"
+  },
+  {
+    "id": "clokcxhqj0005lysmq00tin5r",
+    "word": "party",
+    "meaning": "حزب / مهمانی / جشن",
+    "created_at": "2023-11-04T18:07:43.627Z"
+  },
+  {
+    "id": "clokcz3r0000alysm2ls47kc5",
+    "word": "within",
+    "meaning": "در داخل / در درون / در ظرف",
+    "created_at": "2023-11-04T18:08:58.812Z"
+  },
+  {
+    "id": "clokd2fr5000flysmbigter8t",
+    "word": "grow",
+    "meaning": "رشد کردن / بزرگ شدن",
+    "created_at": "2023-11-04T18:11:34.337Z"
+  },
+  {
+    "id": "clokd3ob1000klysme3butslu",
+    "word": "result",
+    "meaning": "نتیجه / حاصل",
+    "created_at": "2023-11-04T18:12:32.077Z"
+  },
+  {
+    "id": "clokd5cgu000plysmjfr93n9y",
+    "word": "open",
+    "meaning": "باز / باز کردن",
+    "created_at": "2023-11-04T18:13:50.047Z"
+  },
+  {
+    "id": "clokd6mdu000ulysmz6zvg7jy",
+    "word": "morning",
+    "meaning": "صبح",
+    "created_at": "2023-11-04T18:14:49.555Z"
+  },
+  {
+    "id": "clokd7vac000zlysmbq9anewi",
+    "word": "reason",
+    "meaning": "دلیل / علت / سبب",
+    "created_at": "2023-11-04T18:15:47.748Z"
+  },
+  {
+    "id": "clokd9f8u0014lysmvyilsjrz",
+    "word": "low",
+    "meaning": "کم / اندک / پایین",
+    "created_at": "2023-11-04T18:17:00.271Z"
+  },
+  {
+    "id": "clokdb5vm0019lysmum1vm3y3",
+    "word": "win",
+    "meaning": "پیروزی / برنده شدن",
+    "created_at": "2023-11-04T18:18:21.443Z"
+  },
+  {
+    "id": "clokdc92k001elysm84bzc98i",
+    "word": "research",
+    "meaning": "پژوهش / تحقیق",
+    "created_at": "2023-11-04T18:19:12.237Z"
+  },
+  {
+    "id": "clokddsik001jlysmg8di2pp9",
+    "word": "girl",
+    "meaning": "دختر",
+    "created_at": "2023-11-04T18:20:24.093Z"
+  },
+  {
+    "id": "clokdfmob001olysmzp7guo33",
+    "word": "guy",
+    "meaning": "مرد / رفیق",
+    "created_at": "2023-11-04T18:21:49.835Z"
+  },
+  {
+    "id": "clokdgorc001tlysmegtpn9f2",
+    "word": "early",
+    "meaning": "در اوایل / زود",
+    "created_at": "2023-11-04T18:22:39.192Z"
+  },
+  {
+    "id": "clokdi6iu001ylysm9a9sbuec",
+    "word": "food",
+    "meaning": "غذا / خوراک",
+    "created_at": "2023-11-04T18:23:48.870Z"
+  },
+  {
+    "id": "clokdj4z90023lysmdvwn3ba3",
+    "word": "moment",
+    "meaning": "لحظه / هنگام",
+    "created_at": "2023-11-04T18:24:33.525Z"
+  },
+  {
+    "id": "clokdk9es0028lysmp1wannw7",
+    "word": "himself",
+    "meaning": "خودش (مذکر)",
+    "created_at": "2023-11-04T18:25:25.925Z"
+  },
+  {
+    "id": "clokdm96l002dlysmmc5l8rox",
+    "word": "air",
+    "meaning": "هوا",
+    "created_at": "2023-11-04T18:26:58.942Z"
+  },
+  {
+    "id": "clokdnmdu002ilysm5nwbljgt",
+    "word": "teacher",
+    "meaning": "معلم",
+    "created_at": "2023-11-04T18:28:02.707Z"
+  },
+  {
+    "id": "clokdosqj002nlysmzme6xowd",
+    "word": "Force",
+    "meaning": "نیرو / مجبور کردن",
+    "created_at": "2023-11-04T18:28:57.595Z"
+  },
+  {
+    "id": "clokdqccc002slysmdypn8o74",
+    "word": "offer",
+    "meaning": "پیشنهاد / پیشنهاد دادن",
+    "created_at": "2023-11-04T18:30:09.661Z"
+  },
+  {
+    "id": "clokdrnfx002xlysm03ikfwem",
+    "word": "enough",
+    "meaning": "کافی / اندازه",
+    "created_at": "2023-11-04T18:31:10.701Z"
+  },
+  {
+    "id": "clokdt8cd0032lysm0u5zizr1",
+    "word": "education",
+    "meaning": "آموزش / پرورش",
+    "created_at": "2023-11-04T18:32:24.446Z"
+  },
+  {
+    "id": "clokdujl20037lysm15lqf18e",
+    "word": "across",
+    "meaning": "در میان / در طول / روبرو",
+    "created_at": "2023-11-04T18:33:25.671Z"
+  },
+  {
+    "id": "clokdwi1k003clysmlta3zo0v",
+    "word": "although",
+    "meaning": "اگرچه / با این وجود",
+    "created_at": "2023-11-04T18:34:56.985Z"
+  },
+  {
+    "id": "cloke0kqo003hlysmygf306e3",
+    "word": "remember",
+    "meaning": "به یاد داشتن",
+    "created_at": "2023-11-04T18:38:07.105Z"
+  },
+  {
+    "id": "clokvscef0000lyr7ge7m8cq3",
+    "word": "foot",
+    "meaning": "پا",
+    "created_at": "2023-11-05T02:55:36.136Z"
+  },
+  {
+    "id": "clokvu87g0005lyr7v20x9ayt",
+    "word": "second",
+    "meaning": "دوم / دومین / ثانیه",
+    "created_at": "2023-11-05T02:57:04.013Z"
+  },
+  {
+    "id": "clokvvf2i000alyr72qi1ikps",
+    "word": "boy",
+    "meaning": "پسر",
+    "created_at": "2023-11-05T02:57:59.562Z"
+  },
+  {
+    "id": "clokvwi3q000flyr780etrgbx",
+    "word": "maybe",
+    "meaning": "شاید / ممکن است",
+    "created_at": "2023-11-05T02:58:50.150Z"
+  },
+  {
+    "id": "clokwerry0004ly61qdn976sc",
+    "word": "toward",
+    "meaning": "نسبت به / به سمت",
+    "created_at": "2023-11-05T03:13:02.494Z"
+  },
+  {
+    "id": "clokwgxjf0009ly61x7m0deon",
+    "word": "able",
+    "meaning": "قادر / توانا بودن",
+    "created_at": "2023-11-05T03:14:43.276Z"
+  },
+  {
+    "id": "clokwj5ke000ely61sj8py7ds",
+    "word": "age",
+    "meaning": "سن",
+    "created_at": "2023-11-05T03:16:26.990Z"
+  },
+  {
+    "id": "clokwkfad000jly61jlflqf2g",
+    "word": "policy",
+    "meaning": "سیاست",
+    "created_at": "2023-11-05T03:17:26.245Z"
+  },
+  {
+    "id": "clokwmp8i000oly61zyshix9m",
+    "word": "everything",
+    "meaning": "همه چیز / هر چیزی",
+    "created_at": "2023-11-05T03:19:12.450Z"
+  },
+  {
+    "id": "clokwnlo5000tly61mwis3mrc",
+    "word": "love",
+    "meaning": "دوست داشتن",
+    "created_at": "2023-11-05T03:19:54.486Z"
+  },
+  {
+    "id": "clokwt5p9000yly61m3xf43pk",
+    "word": "process",
+    "meaning": "روند / پردازش کردن",
+    "created_at": "2023-11-05T03:24:13.726Z"
+  },
+  {
+    "id": "clokwug790013ly61rjvv71w0",
+    "word": "music",
+    "meaning": "موزیک / موسیقی",
+    "created_at": "2023-11-05T03:25:13.990Z"
+  },
+  {
+    "id": "clokwwal10018ly61fak2x9d4",
+    "word": "including",
+    "meaning": "شامل / از جمله / همراه با",
+    "created_at": "2023-11-05T03:26:40.022Z"
+  },
+  {
+    "id": "clomwtp7s0005lyxsc8k1jnnf",
+    "word": "consider",
+    "meaning": "در نظر گرفتن",
+    "created_at": "2023-11-06T13:00:11.369Z"
+  },
+  {
+    "id": "clomwwgpa000alyxstmtrjeif",
+    "word": "appear",
+    "meaning": "ظاهر شدن / به چشم آمدن / مشخص شدن",
+    "created_at": "2023-11-06T13:02:20.302Z"
+  },
+  {
+    "id": "clomwyohx000flyxsvmoeiq6l",
+    "word": "actually",
+    "meaning": "در واقع / در حقیقت",
+    "created_at": "2023-11-06T13:04:03.718Z"
+  },
+  {
+    "id": "clomwzoxp000klyxs0p7cmxcf",
+    "word": "buy",
+    "meaning": "خریدن",
+    "created_at": "2023-11-06T13:04:50.942Z"
+  },
+  {
+    "id": "clomx0pl7000plyxs50zw5nvg",
+    "word": "probably",
+    "meaning": "شاید / احتمالاً",
+    "created_at": "2023-11-06T13:05:38.443Z"
+  },
+  {
+    "id": "clomx1qoa000ulyxs6two2ffz",
+    "word": "human",
+    "meaning": "انسان / بشر",
+    "created_at": "2023-11-06T13:06:26.506Z"
+  },
+  {
+    "id": "clomx3s0l000zlyxs0zl01sa2",
+    "word": "wait",
+    "meaning": "صبر کردن",
+    "created_at": "2023-11-06T13:08:01.557Z"
+  },
+  {
+    "id": "clomx5p780014lyxsoz0v74ok",
+    "word": "serve",
+    "meaning": "خدمت / خدمت کردن / سرو شدن",
+    "created_at": "2023-11-06T13:09:31.220Z"
+  },
+  {
+    "id": "clomx7lcu0019lyxs0riv23aj",
+    "word": "market",
+    "meaning": "بازار / داد و ستد / مارکت",
+    "created_at": "2023-11-06T13:10:59.550Z"
+  },
+  {
+    "id": "clomx8qxs001elyxsjo9yv6ul",
+    "word": "die",
+    "meaning": "مردن",
+    "created_at": "2023-11-06T13:11:53.440Z"
+  },
+  {
+    "id": "clomxaza6001jlyxs6d0hdsb3",
+    "word": "send",
+    "meaning": "فرستادن",
+    "created_at": "2023-11-06T13:13:37.566Z"
+  },
+  {
+    "id": "clomy49si001olyxs35fdhqog",
+    "word": "expect",
+    "meaning": "انتظار داشتم",
+    "created_at": "2023-11-06T13:36:24.211Z"
+  },
+  {
+    "id": "clomy68tl001tlyxs015t90jv",
+    "word": "sense",
+    "meaning": "حس / حس کردن",
+    "created_at": "2023-11-06T13:37:56.265Z"
+  },
+  {
+    "id": "clomy8qqs001ylyxs7c5rooaq",
+    "word": "build",
+    "meaning": "ساختن / بنا کردن",
+    "created_at": "2023-11-06T13:39:52.805Z"
+  },
+  {
+    "id": "clomyacua0023lyxsig6mtfh2",
+    "word": "stay",
+    "meaning": "ماندن",
+    "created_at": "2023-11-06T13:41:08.098Z"
+  },
+  {
+    "id": "clomyci1t0028lyxswchpa9si",
+    "word": "fall",
+    "meaning": "پاییز / سقوط کردن / افتادن",
+    "created_at": "2023-11-06T13:42:48.161Z"
+  },
+  {
+    "id": "clomye9jw002dlyxsbdeo9u1b",
+    "word": "nation",
+    "meaning": "قوم / ملت",
+    "created_at": "2023-11-06T13:44:10.461Z"
+  },
+  {
+    "id": "clomyjllo002ilyxskz7g6bd5",
+    "word": "plan",
+    "meaning": "طرح / پلن / برنامه چیدن",
+    "created_at": "2023-11-06T13:48:19.357Z"
+  },
+  {
+    "id": "clomyleke002nlyxsto5ff7fy",
+    "word": "cut",
+    "meaning": "بریدن / قطع کردن",
+    "created_at": "2023-11-06T13:49:43.551Z"
+  },
+  {
+    "id": "clomymwjt002slyxsu9m4i3im",
+    "word": "college",
+    "meaning": "کالج / دانشکده",
+    "created_at": "2023-11-06T13:50:53.513Z"
+  },
+  {
+    "id": "clomyodej002xlyxsn4zwgzob",
+    "word": "interest",
+    "meaning": "علاقه / علاقه‌مند کردن",
+    "created_at": "2023-11-06T13:52:02.011Z"
+  },
+  {
+    "id": "clomys02i0032lyxsd5ifc5hp",
+    "word": "death",
+    "meaning": "مرگ",
+    "created_at": "2023-11-06T13:54:51.355Z"
+  },
+  {
+    "id": "clomytmgw0037lyxsfafmxfbb",
+    "word": "course",
+    "meaning": "دوره / درس",
+    "created_at": "2023-11-06T13:56:07.040Z"
+  },
+  {
+    "id": "clomyuwck003clyxs1zleqh94",
+    "word": "someone",
+    "meaning": "کسی / فردی",
+    "created_at": "2023-11-06T13:57:06.501Z"
+  },
+  {
+    "id": "clomywhko003hlyxsk2q7uj5s",
+    "word": "experience",
+    "meaning": "تجربه / تجربه کردن",
+    "created_at": "2023-11-06T13:58:20.664Z"
+  },
+  {
+    "id": "clomyxyli003mlyxsn88iccu4",
+    "word": "behind",
+    "meaning": "پشت / پشت سر",
+    "created_at": "2023-11-06T13:59:29.382Z"
+  },
+  {
+    "id": "clomyz41v003rlyxs8hfstrei",
+    "word": "reach",
+    "meaning": "دست یافتن / رسیدن به",
+    "created_at": "2023-11-06T14:00:23.108Z"
+  },
+  {
+    "id": "clomz0liv003wlyxscn6tztnx",
+    "word": "local",
+    "meaning": "محلی",
+    "created_at": "2023-11-06T14:01:32.407Z"
+  },
+  {
+    "id": "clomz24880041lyxs2qp3xzzw",
+    "word": "kill",
+    "meaning": "کشتن / از بین بردن",
+    "created_at": "2023-11-06T14:02:43.305Z"
+  },
+  {
+    "id": "clomz576z0046lyxs1156vry9",
+    "word": "six",
+    "meaning": "عدد ۶",
+    "created_at": "2023-11-06T14:05:07.115Z"
+  },
+  {
+    "id": "clomz68qu004blyxskbxa13bi",
+    "word": "remain",
+    "meaning": "ماندن / باقی ماندن",
+    "created_at": "2023-11-06T14:05:55.782Z"
+  },
+  {
+    "id": "clomz8l3h004glyxsu2699zcn",
+    "word": "effect",
+    "meaning": "اثر / تاثیر",
+    "created_at": "2023-11-06T14:07:45.102Z"
+  },
+  {
+    "id": "clomz9ox4004llyxsv60icmc0",
+    "word": "suggest",
+    "meaning": "پیشنهاد دادن",
+    "created_at": "2023-11-06T14:08:36.713Z"
+  },
+  {
+    "id": "clomzamqg004qlyxsqjmzyk32",
+    "word": "class",
+    "meaning": "کلاس",
+    "created_at": "2023-11-06T14:09:20.536Z"
+  },
+  {
+    "id": "clomzcike004vlyxsa1oxh80g",
+    "word": "control",
+    "meaning": "کنترل / کنترل کردن",
+    "created_at": "2023-11-06T14:10:48.446Z"
+  },
+  {
+    "id": "clomzduni0050lyxsedshke0o",
+    "word": "raise",
+    "meaning": "بالا بردن / ترفیع",
+    "created_at": "2023-11-06T14:11:50.766Z"
+  },
+  {
+    "id": "clomzfblb0055lyxs7xxgvpyr",
+    "word": "care",
+    "meaning": "مراقبت کردن / اهمیت دادن",
+    "created_at": "2023-11-06T14:12:59.375Z"
+  },
+  {
+    "id": "clomzgnuv005alyxs1j1iv595",
+    "word": "perhaps",
+    "meaning": "شاید / احتمالاً",
+    "created_at": "2023-11-06T14:14:01.928Z"
+  },
+  {
+    "id": "clopewegi0000lygy33e7czig",
+    "word": "late",
+    "meaning": "دیر / دیر کردن / اواخر",
+    "created_at": "2023-11-08T07:01:42.835Z"
+  },
+  {
+    "id": "clopexmnc0005lygyk4fk6w9i",
+    "word": "hard",
+    "meaning": "سخت / سفت",
+    "created_at": "2023-11-08T07:02:40.104Z"
+  },
+  {
+    "id": "clopezgdl000alygyu806ntti",
+    "word": "field",
+    "meaning": "رشته / زمینه / زمین / عرصه",
+    "created_at": "2023-11-08T07:04:05.289Z"
+  },
+  {
+    "id": "clopf1xtx000flygyh9wbhnjg",
+    "word": "else",
+    "meaning": "دیگر / دیگری / غیر",
+    "created_at": "2023-11-08T07:06:01.222Z"
+  },
+  {
+    "id": "clopf3go3000klygykuyxde9c",
+    "word": "pass",
+    "meaning": "عبور کردن / پاس کردن",
+    "created_at": "2023-11-08T07:07:12.291Z"
+  },
+  {
+    "id": "clopf56zw000plygyp10hhxpb",
+    "word": "former",
+    "meaning": "سابق / قبلی",
+    "created_at": "2023-11-08T07:08:33.068Z"
+  },
+  {
+    "id": "clopf6rxg000ulygyrlarpial",
+    "word": "sell",
+    "meaning": "فروختن",
+    "created_at": "2023-11-08T07:09:46.852Z"
+  },
+  {
+    "id": "clopf84g6000zlygyf0jpcwfy",
+    "word": "major",
+    "meaning": "عمده / اصلی / رشته اصلی",
+    "created_at": "2023-11-08T07:10:49.734Z"
+  },
+  {
+    "id": "clopfa3h70014lygy0avstu38",
+    "word": "sometimes",
+    "meaning": "گاهی",
+    "created_at": "2023-11-08T07:12:21.788Z"
+  },
+  {
+    "id": "clopfbnhb0019lygy7u9sfr0d",
+    "word": "require",
+    "meaning": "نیاز داشتن / احتیاج داشتن",
+    "created_at": "2023-11-08T07:13:34.368Z"
+  },
+  {
+    "id": "clopfdix5001elygygxo9p6sl",
+    "word": "along",
+    "meaning": "همراه / در طول",
+    "created_at": "2023-11-08T07:15:01.769Z"
+  },
+  {
+    "id": "clopfef25001jlygyjbgusd12",
+    "word": "development",
+    "meaning": "توسعه",
+    "created_at": "2023-11-08T07:15:43.421Z"
+  },
+  {
+    "id": "clopfh33t001olygy14376h08",
+    "word": "themselves",
+    "meaning": "خودشان / از خودشان",
+    "created_at": "2023-11-08T07:17:47.898Z"
+  },
+  {
+    "id": "clopfkj7n001tlygyle8x656k",
+    "word": "report",
+    "meaning": "گزارش / گزارش دادن",
+    "created_at": "2023-11-08T07:20:28.739Z"
+  },
+  {
+    "id": "clopfm0cc001ylygykg137rjd",
+    "word": "role",
+    "meaning": "نقش / وظیفه",
+    "created_at": "2023-11-08T07:21:37.596Z"
+  },
+  {
+    "id": "clopfnljv0023lygyd84i3oyi",
+    "word": "better",
+    "meaning": "بهتر",
+    "created_at": "2023-11-08T07:22:51.740Z"
+  },
+  {
+    "id": "clopfon5z0028lygyxa0oammd",
+    "word": "economic",
+    "meaning": "اقتصادی",
+    "created_at": "2023-11-08T07:23:40.488Z"
+  },
+  {
+    "id": "clopfqzr9002dlygy9vjkckpa",
+    "word": "effort",
+    "meaning": "تلاش / کوشش",
+    "created_at": "2023-11-08T07:25:30.118Z"
+  },
+  {
+    "id": "clopft5um002ilygy47dfx6xz",
+    "word": "decide",
+    "meaning": "تصمیم گرفتن",
+    "created_at": "2023-11-08T07:27:11.327Z"
+  },
+  {
+    "id": "clopfuvnq002nlygy7npv08p1",
+    "word": "rate",
+    "meaning": "نرخ / میزان / ارزیابی کردن",
+    "created_at": "2023-11-08T07:28:31.431Z"
+  },
+  {
+    "id": "clopfwz4h002slygylylf1yww",
+    "word": "strong",
+    "meaning": "قوی",
+    "created_at": "2023-11-08T07:30:09.234Z"
+  },
+  {
+    "id": "clopfzggs002xlygybqhvl7tm",
+    "word": "possible",
+    "meaning": "ممکن",
+    "created_at": "2023-11-08T07:32:05.020Z"
+  },
+  {
+    "id": "clopg0tc00032lygyrneyl3wm",
+    "word": "heart",
+    "meaning": "قلب",
+    "created_at": "2023-11-08T07:33:08.352Z"
+  },
+  {
+    "id": "clopg22nm0037lygy4r7rm74c",
+    "word": "drug",
+    "meaning": "دارو / مواد مخدر",
+    "created_at": "2023-11-08T07:34:07.091Z"
+  },
+  {
+    "id": "clopg41uc003clygy4tklgcqx",
+    "word": "leader",
+    "meaning": "رهبر",
+    "created_at": "2023-11-08T07:35:39.348Z"
+  },
+  {
+    "id": "clopg5dhc003hlygyneccf2oi",
+    "word": "light",
+    "meaning": "نور / سبک",
+    "created_at": "2023-11-08T07:36:41.089Z"
+  },
+  {
+    "id": "clopg71dx003mlygy7irwm740",
+    "word": "voice",
+    "meaning": "صوت / صدا",
+    "created_at": "2023-11-08T07:37:58.726Z"
+  },
+  {
+    "id": "clopg82zb003rlygy8n5gex8s",
+    "word": "wife",
+    "meaning": "زن / همسر خانم",
+    "created_at": "2023-11-08T07:38:47.447Z"
+  },
+  {
+    "id": "clopg9blj003wlygyzh3aej2e",
+    "word": "whole",
+    "meaning": "تمام / کل / کامل",
+    "created_at": "2023-11-08T07:39:45.272Z"
+  },
+  {
+    "id": "clopgas650041lygytzvsuop2",
+    "word": "police",
+    "meaning": "پلیس",
+    "created_at": "2023-11-08T07:40:53.406Z"
+  },
+  {
+    "id": "clopgbwkw0046lygyt306xppe",
+    "word": "mind",
+    "meaning": "ذهن / مراقب بودن",
+    "created_at": "2023-11-08T07:41:45.777Z"
+  },
+  {
+    "id": "clopgd0x5004blygyyp0v3pzq",
+    "word": "finally",
+    "meaning": "سرانجام / در نهایت",
+    "created_at": "2023-11-08T07:42:38.057Z"
+  },
+  {
+    "id": "clopgesb5004glygyowo0s5fm",
+    "word": "pull",
+    "meaning": "کشیدن",
+    "created_at": "2023-11-08T07:44:00.209Z"
+  },
+  {
+    "id": "clopgg58r004llygyknwmi1id",
+    "word": "return",
+    "meaning": "برگشتن / بازگشت",
+    "created_at": "2023-11-08T07:45:03.628Z"
+  },
+  {
+    "id": "clopgh5xv004qlygy4z9i83ld",
+    "word": "free",
+    "meaning": "رایگان / آزاد",
+    "created_at": "2023-11-08T07:45:51.188Z"
+  },
+  {
+    "id": "clopghwov004vlygy7njg7xdo",
+    "word": "military",
+    "meaning": "نظامی",
+    "created_at": "2023-11-08T07:46:25.855Z"
+  },
+  {
+    "id": "clopgixc00050lygyarznihm8",
+    "word": "price",
+    "meaning": "قیمت",
+    "created_at": "2023-11-08T07:47:13.344Z"
+  },
+  {
+    "id": "clopgjmre0055lygyn4eq8fg0",
+    "word": "less",
+    "meaning": "کمتر",
+    "created_at": "2023-11-08T07:47:46.299Z"
+  },
+  {
+    "id": "clopgky1q005alygy5vxldeqv",
+    "word": "according to",
+    "meaning": "مطابق با / با توجه به",
+    "created_at": "2023-11-08T07:48:47.583Z"
+  },
+  {
+    "id": "clopgmdd9005flygyk5tgzz4p",
+    "word": "decision",
+    "meaning": "تصمیم",
+    "created_at": "2023-11-08T07:49:54.093Z"
+  },
+  {
+    "id": "cloy8co9z0000lymvwntdgi90",
+    "word": "explain",
+    "meaning": "توضیح دادن",
+    "created_at": "2023-11-14T11:08:20.327Z"
+  },
+  {
+    "id": "cloy8dsvc0005lymvlexiohlj",
+    "word": "son",
+    "meaning": "فرزند پسر",
+    "created_at": "2023-11-14T11:09:12.936Z"
+  },
+  {
+    "id": "cloy8fl2z000alymvefs8pbn8",
+    "word": "hope",
+    "meaning": "امید / امید داشتن",
+    "created_at": "2023-11-14T11:10:36.155Z"
+  },
+  {
+    "id": "cloy8hy7z000flymv1p7g5hx9",
+    "word": "develop",
+    "meaning": "توسعه دادن / گسترش دادن",
+    "created_at": "2023-11-14T11:12:26.496Z"
+  },
+  {
+    "id": "cloy8lmyk000klymvirckvmj8",
+    "word": "view",
+    "meaning": "نظر / دید / منظر",
+    "created_at": "2023-11-14T11:15:18.525Z"
+  },
+  {
+    "id": "cloy8ozy3000plymv7ushonb0",
+    "word": "relationship",
+    "meaning": "رابطه",
+    "created_at": "2023-11-14T11:17:55.324Z"
+  },
+  {
+    "id": "cloy8qt27000ulymvdjn5qm6q",
+    "word": "carry",
+    "meaning": "حمل کردن",
+    "created_at": "2023-11-14T11:19:19.712Z"
+  },
+  {
+    "id": "cloy8sxue000zlymvfwc2yo69",
+    "word": "town",
+    "meaning": "شهر / شهرک",
+    "created_at": "2023-11-14T11:20:59.223Z"
+  },
+  {
+    "id": "cloy8ueef0014lymvzgfp9d0s",
+    "word": "road",
+    "meaning": "جاده / مسیر",
+    "created_at": "2023-11-14T11:22:07.336Z"
+  },
+  {
+    "id": "cloy8wuaa0019lymviqn10e80",
+    "word": "drive",
+    "meaning": "رانندگی کردن / راندن",
+    "created_at": "2023-11-14T11:24:01.235Z"
+  },
+  {
+    "id": "cloy8zixg001elymv4p1pk5gd",
+    "word": "arm",
+    "meaning": "بازو / دسته صندلی / مسلح کردن",
+    "created_at": "2023-11-14T11:26:06.485Z"
+  },
+  {
+    "id": "cloy959fu001jlymvi8gjqhws",
+    "word": "true",
+    "meaning": "درست / صحیح / واقعی",
+    "created_at": "2023-11-14T11:30:34.123Z"
+  },
+  {
+    "id": "cloy9b20w001olymv1t89hshq",
+    "word": "federal",
+    "meaning": "فدرال / محلی",
+    "created_at": "2023-11-14T11:35:04.448Z"
+  },
+  {
+    "id": "cloy9efi1001tlymv10m7n6s1",
+    "word": "break",
+    "meaning": "وقفه / تنفس / شکستن",
+    "created_at": "2023-11-14T11:37:41.881Z"
+  },
+  {
+    "id": "cloy9geje001ylymvivvqq8hw",
+    "word": "difference",
+    "meaning": "تفاوت / فرق",
+    "created_at": "2023-11-14T11:39:13.946Z"
+  },
+  {
+    "id": "cloy9hzeg0023lymv03oe81k9",
+    "word": "thank",
+    "meaning": "تشکر کردن",
+    "created_at": "2023-11-14T11:40:27.641Z"
+  },
+  {
+    "id": "cloy9jj1o0028lymvyph8lupo",
+    "word": "receive",
+    "meaning": "گرفتن / دریافت کردن",
+    "created_at": "2023-11-14T11:41:39.756Z"
+  },
+  {
+    "id": "cloy9koxh002dlymv2mkso1uv",
+    "word": "value",
+    "meaning": "ارزش / ارزش قائل شدن",
+    "created_at": "2023-11-14T11:42:34.037Z"
+  },
+  {
+    "id": "cloy9m4fx002ilymv411e4ugv",
+    "word": "International",
+    "meaning": "بین المللی",
+    "created_at": "2023-11-14T11:43:40.797Z"
+  },
+  {
+    "id": "cloy9o00j002nlymvz6ab6lel",
+    "word": "building",
+    "meaning": "ساختمان",
+    "created_at": "2023-11-14T11:45:08.372Z"
+  },
+  {
+    "id": "cloy9q0on002slymvesznyhc0",
+    "word": "action",
+    "meaning": "اقدام کردن / عمل",
+    "created_at": "2023-11-14T11:46:42.551Z"
+  },
+  {
+    "id": "cloy9rts0002xlymva2d5ahs7",
+    "word": "full",
+    "meaning": "کامل / تمام / پر",
+    "created_at": "2023-11-14T11:48:06.912Z"
+  },
+  {
+    "id": "cloy9t3m00032lymvqov9vsks",
+    "word": "model",
+    "meaning": "مدل / ماکت",
+    "created_at": "2023-11-14T11:49:06.313Z"
+  },
+  {
+    "id": "cloy9v5u30037lymvnhe3ch1m",
+    "word": "join",
+    "meaning": "پیوستن / همراه شدن",
+    "created_at": "2023-11-14T11:50:42.508Z"
+  },
+  {
+    "id": "cloy9x6ik003clymvfyd4lhts",
+    "word": "season",
+    "meaning": "بخش / فصل",
+    "created_at": "2023-11-14T11:52:16.700Z"
+  },
+  {
+    "id": "cloy9z8tf003hlymvfqac571w",
+    "word": "society",
+    "meaning": "جامعه / انجمن",
+    "created_at": "2023-11-14T11:53:52.996Z"
+  },
+  {
+    "id": "cloya2hka003mlymvltq8uu98",
+    "word": "tax",
+    "meaning": "مالیات / مالیات گرفتن",
+    "created_at": "2023-11-14T11:56:24.298Z"
+  },
+  {
+    "id": "cloza8ogm003rlymvd63hu6t9",
+    "word": "director",
+    "meaning": "مدیر / اداره کننده / کارگردان",
+    "created_at": "2023-11-15T04:48:59.351Z"
+  },
+  {
+    "id": "cloza9xs4003wlymvpttt5wkc",
+    "word": "position",
+    "meaning": "موقعیت / جایگاه",
+    "created_at": "2023-11-15T04:49:58.084Z"
+  },
+  {
+    "id": "clozab5za0041lymv7fqyf3zg",
+    "word": "player",
+    "meaning": "نوازنده / بازیکن",
+    "created_at": "2023-11-15T04:50:55.367Z"
+  },
+  {
+    "id": "clozacjss0046lymvui9375uh",
+    "word": "agree",
+    "meaning": "موافقت کردن / موافق بودن",
+    "created_at": "2023-11-15T04:51:59.932Z"
+  },
+  {
+    "id": "clozae1jn004blymvtt8eku91",
+    "word": "especially",
+    "meaning": "به خصوص / به ویژه",
+    "created_at": "2023-11-15T04:53:09.587Z"
+  },
+  {
+    "id": "clozafzth004glymvu1sy8s2x",
+    "word": "record",
+    "meaning": "ثبت کردن / ضبط کردن",
+    "created_at": "2023-11-15T04:54:40.661Z"
+  },
+  {
+    "id": "clozahg0s004llymv11j5oh15",
+    "word": "pick",
+    "meaning": "چیدن / برگزیدن",
+    "created_at": "2023-11-15T04:55:48.316Z"
+  },
+  {
+    "id": "clozainr5004qlymvcr1ym41v",
+    "word": "wear",
+    "meaning": "پوشیدن",
+    "created_at": "2023-11-15T04:56:44.994Z"
+  },
+  {
+    "id": "clozak844004vlymvpsxzyf5z",
+    "word": "paper",
+    "meaning": "کاغذ / روزنامه / مقاله",
+    "created_at": "2023-11-15T04:57:58.037Z"
+  },
+  {
+    "id": "clozaly3w0050lymv82lviuk2",
+    "word": "special",
+    "meaning": "ویژه / مخصوص",
+    "created_at": "2023-11-15T04:59:18.380Z"
+  },
+  {
+    "id": "clozani2c0055lymv88q9jcyj",
+    "word": "space",
+    "meaning": "فضا / جا / مکان",
+    "created_at": "2023-11-15T05:00:30.900Z"
+  },
+  {
+    "id": "clozaoxrf005alymvwi66lklt",
+    "word": "ground",
+    "meaning": "زمین / به زمین نشستن",
+    "created_at": "2023-11-15T05:01:37.900Z"
+  },
+  {
+    "id": "clozaqnab005flymvb4ef0ax9",
+    "word": "form",
+    "meaning": "فرم / فرم گرفتن / نوع",
+    "created_at": "2023-11-15T05:02:57.635Z"
+  },
+  {
+    "id": "clpcas9hs0000eth5gsi7y11p",
+    "word": "support",
+    "meaning": "پشتیبانی کردن / پشتیبانی",
+    "created_at": "2023-11-24T07:25:13.360Z"
+  },
+  {
+    "id": "clpcatzsq0005eth5igog55q1",
+    "word": "event",
+    "meaning": "رویداد / واقعه",
+    "created_at": "2023-11-24T07:26:34.107Z"
+  },
+  {
+    "id": "clpcavpa1000aeth5gsv7nj4m",
+    "word": "official",
+    "meaning": "رسمی",
+    "created_at": "2023-11-24T07:27:53.786Z"
+  },
+  {
+    "id": "clpcaxx2h000feth58n2ohf7p",
+    "word": "whose",
+    "meaning": "مال چه کسی",
+    "created_at": "2023-11-24T07:29:37.193Z"
+  },
+  {
+    "id": "clpcazr2o000keth5cdc3dvrz",
+    "word": "matter",
+    "meaning": "ماده / موضوع / اهمیت داشتن",
+    "created_at": "2023-11-24T07:31:02.736Z"
+  },
+  {
+    "id": "clpcb155s000peth5hc5jkcw5",
+    "word": "everyone",
+    "meaning": "هر کسی / تک تک افراد",
+    "created_at": "2023-11-24T07:32:07.649Z"
+  },
+  {
+    "id": "clpqi8qfn0000lb3z8rhvh1zt",
+    "word": "center",
+    "meaning": "مرکز",
+    "created_at": "2023-12-04T06:02:45.587Z"
+  },
+  {
+    "id": "clpqiao1r0005lb3zneq3e3dh",
+    "word": "couple",
+    "meaning": "زن و شوهر / زوج / چند",
+    "created_at": "2023-12-04T06:04:15.807Z"
+  },
+  {
+    "id": "clpqibjqf000alb3zktzddlz7",
+    "word": "site",
+    "meaning": "مکان / سایت",
+    "created_at": "2023-12-04T06:04:56.871Z"
+  },
+  {
+    "id": "clpqidzoi000flb3z0b156dfb",
+    "word": "project",
+    "meaning": "پروژه",
+    "created_at": "2023-12-04T06:06:50.851Z"
+  },
+  {
+    "id": "clpqifi8k000klb3zmuvi8njp",
+    "word": "hit",
+    "meaning": "زدن / ضربه زدن",
+    "created_at": "2023-12-04T06:08:01.557Z"
+  },
+  {
+    "id": "clpqii1vh000plb3zvfinvp6h",
+    "word": "based",
+    "meaning": "بر پایه / بر اساس",
+    "created_at": "2023-12-04T06:10:00.318Z"
+  },
+  {
+    "id": "clpqijupt000ulb3zno61xnka",
+    "word": "activity",
+    "meaning": "فعالیت",
+    "created_at": "2023-12-04T06:11:24.354Z"
+  },
+  {
+    "id": "clpqim3n9000zlb3zrf07gzkv",
+    "word": "star",
+    "meaning": "ستاره",
+    "created_at": "2023-12-04T06:13:09.238Z"
+  },
+  {
+    "id": "clpqinflh0014lb3zlk1dd1db",
+    "word": "table",
+    "meaning": "میز / جدول",
+    "created_at": "2023-12-04T06:14:11.382Z"
+  },
+  {
+    "id": "clpqiphpp0019lb3zkbvmwqd3",
+    "word": "court",
+    "meaning": "دادگاه / ایوان / عرصه",
+    "created_at": "2023-12-04T06:15:47.437Z"
+  },
+  {
+    "id": "clpqirvhb001elb3zc5g6o6lb",
+    "word": "produce",
+    "meaning": "تولید کردن",
+    "created_at": "2023-12-04T06:17:38.591Z"
+  },
+  {
+    "id": "clpqiwd2v001jlb3zeawa3nnr",
+    "word": "eat",
+    "meaning": "خوردن",
+    "created_at": "2023-12-04T06:21:08.024Z"
+  },
+  {
+    "id": "clpqixkrw001olb3z1aecqcrw",
+    "word": "teach",
+    "meaning": "آموزش دادن",
+    "created_at": "2023-12-04T06:22:04.653Z"
+  },
+  {
+    "id": "clpqiys3k001tlb3z486z2642",
+    "word": "oil",
+    "meaning": "نفت / روغن / روغن‌کاری کردن",
+    "created_at": "2023-12-04T06:23:00.801Z"
+  },
+  {
+    "id": "clpqj0z0g001ylb3zv5219lwo",
+    "word": "half",
+    "meaning": "نیم / نصف",
+    "created_at": "2023-12-04T06:24:43.073Z"
+  }
+]

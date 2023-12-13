@@ -1,0 +1,53 @@
+[
+  {
+    "id": "clozummf30000a4i3deu7ql1y",
+    "title": "what's the problem?",
+    "meaning": "مشکل چیست؟",
+    "characters": [
+      "Andrea",
+      "Eric"
+    ],
+    "created_at": "2023-11-15T14:19:42.207Z"
+  },
+  {
+    "id": "clp3kegcn000ey6we5tmux89m",
+    "title": "who's this?",
+    "meaning": "شما؟",
+    "characters": [
+      "anna",
+      "alex",
+      "Sara"
+    ],
+    "created_at": "2023-11-18T04:44:29.640Z"
+  },
+  {
+    "id": "clp51f3f5000g1k36e1wcpocj",
+    "title": "let's go away",
+    "meaning": "برویم مسافرت",
+    "characters": [
+      "peter",
+      "alice"
+    ],
+    "created_at": "2023-11-19T05:28:39.185Z"
+  },
+  {
+    "id": "clp52eyat000z1k36y2oqlz2i",
+    "title": "wake up",
+    "meaning": "بیدار شو",
+    "characters": [
+      "mike",
+      "tom"
+    ],
+    "created_at": "2023-11-19T05:56:32.165Z"
+  },
+  {
+    "id": "clp530oe9001c1k36zbpieewo",
+    "title": "ready to order?",
+    "meaning": "آماده سفارش بدهید",
+    "characters": [
+      "brother",
+      "sister"
+    ],
+    "created_at": "2023-11-19T06:13:25.761Z"
+  }
+]
